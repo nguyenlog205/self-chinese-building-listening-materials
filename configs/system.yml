@@ -1,0 +1,30 @@
+project:
+  name: generateContents
+  version: 0.1.0
+
+paths:
+  metadata_dir: data/metadata
+  audio_cache_dir: data/audio_cache
+  transcript_dir: data/transcripts
+  log_file: logs/system.log
+
+modules:
+  url2metadata:
+    enabled: true
+    download_audio: true
+    audio_format: wav
+    sample_rate: 16000
+    channels: 1
+    overwrite_existing: false
+
+  audio2script:
+    enabled: true
+    model_size: medium       # tiny | base | small | medium | large-v3
+    device: cuda              # cuda | cpu
+    compute_type: float16     # float16 (GPU) | int8 (CPU)
+    language: zh
+    pinyin_style: tone_marks  # tone_marks | numeric
+    overwrite_existing: false
+
+logging:
+  level: INFO

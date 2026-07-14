@@ -1,0 +1,1653 @@
+{
+  "video_id": "hBPECevVz-k",
+  "source_audio_path": "data/audio_cache/hBPECevVz-k.wav",
+  "language": "zh",
+  "segments": [
+    {
+      "index": 0,
+      "start_sec": 6.06,
+      "end_sec": 11.06,
+      "text_zh": "大家好,欢迎收听新一期的《每天中门》,我是李明。",
+      "pinyin": "dà jiā hǎo huān yíng shōu tīng xīn yī qī de měi tiān zhōng mén wǒ shì lǐ míng"
+    },
+    {
+      "index": 1,
+      "start_sec": 11.06,
+      "end_sec": 14.56,
+      "text_zh": "大家好,我是王雨,很高兴又和大家见面了。",
+      "pinyin": "dà jiā hǎo wǒ shì wáng yǔ hěn gāo xìng yòu hé dà jiā jiàn miàn le"
+    },
+    {
+      "index": 2,
+      "start_sec": 14.56,
+      "end_sec": 19.06,
+      "text_zh": "李明,你今天听起来声音特别有精神,有什么好事吗?",
+      "pinyin": "lǐ míng nǐ jīn tiān tīng qǐ lái shēng yīn tè bié yǒu jīng shén yǒu shén me hǎo shì ma"
+    },
+    {
+      "index": 3,
+      "start_sec": 19.06,
+      "end_sec": 23.06,
+      "text_zh": "没什么特别的,可能就是习惯好吧。",
+      "pinyin": "méi shén me tè bié de kě néng jiù shì xí guàn hǎo ba"
+    },
+    {
+      "index": 4,
+      "start_sec": 23.06,
+      "end_sec": 26.06,
+      "text_zh": "每天早上起来,感觉状态都还不错。",
+      "pinyin": "měi tiān zǎo shàng qǐ lái gǎn jué zhuàng tài dōu hái bú cuò"
+    },
+    {
+      "index": 5,
+      "start_sec": 26.06,
+      "end_sec": 27.06,
+      "text_zh": "你呢,王雨?",
+      "pinyin": "nǐ ne wáng yǔ"
+    },
+    {
+      "index": 6,
+      "start_sec": 27.06,
+      "end_sec": 30.06,
+      "text_zh": "我也挺好的,就是刚才来录音室的路上,",
+      "pinyin": "wǒ yě tǐng hǎo de jiù shì gāng cái lái lù yīn shì de lù shàng"
+    },
+    {
+      "index": 7,
+      "start_sec": 30.06,
+      "end_sec": 35.06,
+      "text_zh": "看到你又拿着你那个标志性的保温杯,我就忍不住想笑。",
+      "pinyin": "kàn dào nǐ yòu ná zhe nǐ nà ge biāo zhì xìng de bǎo wēn bēi wǒ jiù rěn bú zhù xiǎng xiào"
+    },
+    {
+      "index": 8,
+      "start_sec": 35.06,
+      "end_sec": 36.46,
+      "text_zh": "保温杯怎么了?",
+      "pinyin": "bǎo wēn bēi zěn me le"
+    },
+    {
+      "index": 9,
+      "start_sec": 36.46,
+      "end_sec": 38.06,
+      "text_zh": "这不是很正常吗?",
+      "pinyin": "zhè bú shì hěn zhèng cháng ma"
+    },
+    {
+      "index": 10,
+      "start_sec": 38.06,
+      "end_sec": 40.06,
+      "text_zh": "我觉得每个人都应该有一个。",
+      "pinyin": "wǒ jué de měi gè rén dōu yīng gāi yǒu yí gè"
+    },
+    {
+      "index": 11,
+      "start_sec": 40.06,
+      "end_sec": 42.06,
+      "text_zh": "对听我们播客的朋友们来说,",
+      "pinyin": "duì tīng wǒ men bō kè de péng yǒu men lái shuō"
+    },
+    {
+      "index": 12,
+      "start_sec": 42.06,
+      "end_sec": 46.06,
+      "text_zh": "如果你正在学习中文,想了解中国人的生活,",
+      "pinyin": "rú guǒ nǐ zhèng zài xué xí zhōng wén xiǎng liǎo jiě zhōng guó rén de shēng huó"
+    },
+    {
+      "index": 13,
+      "start_sec": 46.06,
+      "end_sec": 50.06,
+      "text_zh": "那观察我们用什么东西,也是一个很好的学习方式。",
+      "pinyin": "nà guān chá wǒ men yòng shén me dōng xī yě shì yí gè hěn hǎo de xué xí fāng shì"
+    },
+    {
+      "index": 14,
+      "start_sec": 50.06,
+      "end_sec": 53.06,
+      "text_zh": "说得对,《每天中门》这个播客,",
+      "pinyin": "shuō dé duì měi tiān zhōng mén zhè ge bō kè"
+    },
+    {
+      "index": 15,
+      "start_sec": 53.06,
+      "end_sec": 58.06,
+      "text_zh": "就是为像你们这样正在努力学习中文的初学者朋友们准备的。",
+      "pinyin": "jiù shì wèi xiàng nǐ men zhè yàng zhèng zài nǔ lì xué xí zhōng wén de chū xué zhě péng yǒu men zhǔn bèi de"
+    },
+    {
+      "index": 16,
+      "start_sec": 58.06,
+      "end_sec": 61.06,
+      "text_zh": "我们希望用最自然、最真实的对话,",
+      "pinyin": "wǒ men xī wàng yòng zuì zì rán zuì zhēn shí de duì huà"
+    },
+    {
+      "index": 17,
+      "start_sec": 61.06,
+      "end_sec": 66.06,
+      "text_zh": "帮助大家在轻松的气氛里提高中文听力,了解中国文化。",
+      "pinyin": "bāng zhù dà jiā zài qīng sōng de qì fēn lǐ tí gāo zhōng wén tīng lì liǎo jiě zhōng guó wén huà"
+    },
+    {
+      "index": 18,
+      "start_sec": 66.06,
+      "end_sec": 70.06,
+      "text_zh": "是的,我们聊天的速度会比平时稍微慢一点,",
+      "pinyin": "shì de wǒ men liáo tiān de sù dù huì bǐ píng shí shāo wēi màn yì diǎn"
+    },
+    {
+      "index": 19,
+      "start_sec": 70.06,
+      "end_sec": 72.06,
+      "text_zh": "用的词语也尽量简单。",
+      "pinyin": "yòng de cí yǔ yě jǐn liàng jiǎn dān"
+    },
+    {
+      "index": 20,
+      "start_sec": 72.06,
+      "end_sec": 76.06,
+      "text_zh": "希望大家可以像听朋友聊天一样,放松的听。",
+      "pinyin": "xī wàng dà jiā kě yǐ xiàng tīng péng yǒu liáo tiān yī yàng fàng sōng de tīng"
+    },
+    {
+      "index": 21,
+      "start_sec": 76.06,
+      "end_sec": 81.06,
+      "text_zh": "对,今天我们就要聊一个和李明的保温杯非常有关系的话题。",
+      "pinyin": "duì jīn tiān wǒ men jiù yào liáo yí gè hé lǐ míng de bǎo wēn bēi fēi cháng yǒu guān xì de huà tí"
+    },
+    {
+      "index": 22,
+      "start_sec": 81.06,
+      "end_sec": 83.06,
+      "text_zh": "我想问问正在听的朋友们,",
+      "pinyin": "wǒ xiǎng wèn wèn zhèng zài tīng de péng yǒu men"
+    },
+    {
+      "index": 23,
+      "start_sec": 83.06,
+      "end_sec": 86.06,
+      "text_zh": "你们生病的时候,或者觉得不舒服的时候,",
+      "pinyin": "nǐ men shēng bìng de shí hòu huò zhě jué de bù shū fú de shí hòu"
+    },
+    {
+      "index": 24,
+      "start_sec": 86.06,
+      "end_sec": 90.06,
+      "text_zh": "你周围的中国朋友是不是对你说过一句话?",
+      "pinyin": "nǐ zhōu wéi de zhōng guó péng yǒu shì bú shì duì nǐ shuō guò yī jù huà"
+    },
+    {
+      "index": 25,
+      "start_sec": 90.06,
+      "end_sec": 94.06,
+      "text_zh": "我猜,你说的肯定是那句神丹妙药一样的话。",
+      "pinyin": "wǒ cāi nǐ shuō de kěn dìng shì nà jù shén dān miào yào yī yàng de huà"
+    },
+    {
+      "index": 26,
+      "start_sec": 94.06,
+      "end_sec": 99.06,
+      "text_zh": "没错,今天我们就来聊一聊中国人为什么那么喜欢喝热水,",
+      "pinyin": "méi cuò jīn tiān wǒ men jiù lái liáo yī liáo zhōng guó rén wèi shén me nà me xǐ huān hē rè shuǐ"
+    },
+    {
+      "index": 27,
+      "start_sec": 99.06,
+      "end_sec": 103.06,
+      "text_zh": "以及多喝热水这个听起来有点简单,",
+      "pinyin": "yǐ jí duō hē rè shuǐ zhè ge tīng qǐ lái yǒu diǎn jiǎn dān"
+    },
+    {
+      "index": 28,
+      "start_sec": 103.06,
+      "end_sec": 106.06,
+      "text_zh": "但其实包含了很深文化习惯的话题。",
+      "pinyin": "dàn qí shí bāo hán le hěn shēn wén huà xí guàn de huà tí"
+    },
+    {
+      "index": 29,
+      "start_sec": 106.06,
+      "end_sec": 110.06,
+      "text_zh": "这可以说是了解中国人生活习惯的一个秘密钥匙。",
+      "pinyin": "zhè kě yǐ shuō shì liǎo jiě zhōng guó rén shēng huó xí guàn de yí gè mì mì yào shi"
+    },
+    {
+      "index": 30,
+      "start_sec": 110.06,
+      "end_sec": 112.06,
+      "text_zh": "这个话题很有意思。",
+      "pinyin": "zhè ge huà tí hěn yǒu yì si"
+    },
+    {
+      "index": 31,
+      "start_sec": 112.06,
+      "end_sec": 118.06,
+      "text_zh": "那么王雨,你第一次对多喝热水这句话有深刻的印象是什么时候?",
+      "pinyin": "nà me wáng yǔ nǐ dì yī cì duì duō hē rè shuǐ zhè jù huà yǒu shēn kè de yìn xiàng shì shén me shí hòu"
+    },
+    {
+      "index": 32,
+      "start_sec": 118.06,
+      "end_sec": 121.06,
+      "text_zh": "哇,这就要从我小时候说起了。",
+      "pinyin": "wa zhè jiù yào cóng wǒ xiǎo shí hòu shuō qǐ le"
+    },
+    {
+      "index": 33,
+      "start_sec": 121.06,
+      "end_sec": 125.06,
+      "text_zh": "我觉得我们今天可以好好聊聊这个包治百病的热水。",
+      "pinyin": "wǒ jué de wǒ men jīn tiān kě yǐ hǎo hǎo liáo liáo zhè ge bāo zhì bǎi bìng de rè shuǐ"
+    },
+    {
+      "index": 34,
+      "start_sec": 125.06,
+      "end_sec": 128.06,
+      "text_zh": "哈哈,好,那我们就从这里开始吧。",
+      "pinyin": "hā hā hǎo nà wǒ men jiù cóng zhè lǐ kāi shǐ ba"
+    },
+    {
+      "index": 35,
+      "start_sec": 128.06,
+      "end_sec": 135.06,
+      "text_zh": "李明,我跟你说,我第一次觉得多喝热水这句话又好气又好笑,",
+      "pinyin": "lǐ míng wǒ gēn nǐ shuō wǒ dì yī cì jué de duō hē rè shuǐ zhè jù huà yòu hǎo qì yòu hǎo xiào"
+    },
+    {
+      "index": 36,
+      "start_sec": 135.06,
+      "end_sec": 137.06,
+      "text_zh": "是我上大学的时候。",
+      "pinyin": "shì wǒ shàng dà xué de shí hòu"
+    },
+    {
+      "index": 37,
+      "start_sec": 137.06,
+      "end_sec": 141.06,
+      "text_zh": "那时候我感冒了,头有点疼,",
+      "pinyin": "nà shí hòu wǒ gǎn mào le tóu yǒu diǎn téng"
+    },
+    {
+      "index": 38,
+      "start_sec": 141.06,
+      "end_sec": 147.06,
+      "text_zh": "就跟当时一个关系还不错的男同学发信息说我生病了不舒服。",
+      "pinyin": "jiù gēn dāng shí yí gè guān xì hái bú cuò de nán tóng xué fā xìn xī shuō wǒ shēng bìng le bù shū fú"
+    },
+    {
+      "index": 39,
+      "start_sec": 147.06,
+      "end_sec": 150.06,
+      "text_zh": "然后呢,他肯定回复了那句经典的话。",
+      "pinyin": "rán hòu ne tā kěn dìng huí fù le nà jù jīng diǎn de huà"
+    },
+    {
+      "index": 40,
+      "start_sec": 150.06,
+      "end_sec": 155.06,
+      "text_zh": "你太懂了,他马上就回复了三个字,多喝水。",
+      "pinyin": "nǐ tài dǒng le tā mǎ shàng jiù huí fù le sān gè zì duō hē shuǐ"
+    },
+    {
+      "index": 41,
+      "start_sec": 155.06,
+      "end_sec": 159.06,
+      "text_zh": "后来版本升级了,变成了多喝热水。",
+      "pinyin": "hòu lái bǎn běn shēng jí le biàn chéng le duō hē rè shuǐ"
+    },
+    {
+      "index": 42,
+      "start_sec": 159.06,
+      "end_sec": 162.06,
+      "text_zh": "我当时心里想,这个回答也太简单了吧。",
+      "pinyin": "wǒ dāng shí xīn lǐ xiǎng zhè ge huí dá yě tài jiǎn dān le ba"
+    },
+    {
+      "index": 43,
+      "start_sec": 162.06,
+      "end_sec": 167.06,
+      "text_zh": "我当然知道要多喝水,但我更需要的是关心和安慰呀。",
+      "pinyin": "wǒ dāng rán zhī dào yào duō hē shuǐ dàn wǒ gèng xū yào de shì guān xīn hé ān wèi ya"
+    },
+    {
+      "index": 44,
+      "start_sec": 167.06,
+      "end_sec": 170.06,
+      "text_zh": "哈哈,我完全理解你的感受。",
+      "pinyin": "hā hā wǒ wán quán lǐ jiě nǐ de gǎn shòu"
+    },
+    {
+      "index": 45,
+      "start_sec": 170.06,
+      "end_sec": 172.06,
+      "text_zh": "很多年轻女孩都抱怨过,",
+      "pinyin": "hěn duō nián qīng nǚ hái dōu bào yuàn guò"
+    },
+    {
+      "index": 46,
+      "start_sec": 173.06,
+      "end_sec": 177.06,
+      "text_zh": "说自己的男朋友在他们说不舒服,特别是肚子疼的时候,",
+      "pinyin": "shuō zì jǐ de nán péng yǒu zài tā men shuō bù shū fú tè bié shì dǔ zi téng de shí hòu"
+    },
+    {
+      "index": 47,
+      "start_sec": 177.06,
+      "end_sec": 181.06,
+      "text_zh": "只会说多喝热水,感觉特别不关心人。",
+      "pinyin": "zhǐ huì shuō duō hē rè shuǐ gǎn jué tè bié bù guān xīn rén"
+    },
+    {
+      "index": 48,
+      "start_sec": 181.06,
+      "end_sec": 183.06,
+      "text_zh": "网上还有很多关于这个的笑话。",
+      "pinyin": "wǎng shàng hái yǒu hěn duō guān yú zhè ge de xiào huà"
+    },
+    {
+      "index": 49,
+      "start_sec": 183.06,
+      "end_sec": 185.06,
+      "text_zh": "对对对,就是这种感觉。",
+      "pinyin": "duì duì duì jiù shì zhè zhǒng gǎn jué"
+    },
+    {
+      "index": 50,
+      "start_sec": 185.06,
+      "end_sec": 192.06,
+      "text_zh": "好像不管你得了什么病,从感冒发烧到心情不好,一杯热水都能解决。",
+      "pinyin": "hǎo xiàng bù guǎn nǐ dé le shén me bìng cóng gǎn mào fā shāo dào xīn qíng bù hǎo yī bēi rè shuǐ dōu néng jiě jué"
+    },
+    {
+      "index": 51,
+      "start_sec": 192.06,
+      "end_sec": 196.06,
+      "text_zh": "所以我们开玩笑说,热水是包治百病的。",
+      "pinyin": "suǒ yǐ wǒ men kāi wán xiào shuō rè shuǐ shì bāo zhì bǎi bìng de"
+    },
+    {
+      "index": 52,
+      "start_sec": 196.06,
+      "end_sec": 200.06,
+      "text_zh": "但是,后来我慢慢发现,这句话虽然听起来简单,",
+      "pinyin": "dàn shì hòu lái wǒ màn màn fā xiàn zhè jù huà suī rán tīng qǐ lái jiǎn dān"
+    },
+    {
+      "index": 53,
+      "start_sec": 200.06,
+      "end_sec": 204.06,
+      "text_zh": "但它其实是中国人表达关心的一种方式,对吗?",
+      "pinyin": "dàn tā qí shí shì zhōng guó rén biǎo dá guān xīn de yī zhǒng fāng shì duì ma"
+    },
+    {
+      "index": 54,
+      "start_sec": 204.06,
+      "end_sec": 206.06,
+      "text_zh": "你说到了重点。",
+      "pinyin": "nǐ shuō dào le zhòng diǎn"
+    },
+    {
+      "index": 55,
+      "start_sec": 206.06,
+      "end_sec": 208.06,
+      "text_zh": "在中国人的观念里,当别人生病时,",
+      "pinyin": "zài zhōng guó rén de guān niàn lǐ dāng bié rén shēng bìng shí"
+    },
+    {
+      "index": 56,
+      "start_sec": 208.06,
+      "end_sec": 212.06,
+      "text_zh": "我们首先想到的不是立刻给别人建议吃什么药,",
+      "pinyin": "wǒ men shǒu xiān xiǎng dào de bú shì lì kè gěi bié rén jiàn yì chī shén me yào"
+    },
+    {
+      "index": 57,
+      "start_sec": 212.06,
+      "end_sec": 214.06,
+      "text_zh": "因为我们不是医生。",
+      "pinyin": "yīn wèi wǒ men bú shì yī shēng"
+    },
+    {
+      "index": 58,
+      "start_sec": 214.06,
+      "end_sec": 220.06,
+      "text_zh": "我们能做的就是提醒对方用最安全、最基本的方法来照顾自己。",
+      "pinyin": "wǒ men néng zuò de jiù shì tí xǐng duì fāng yòng zuì ān quán zuì jī běn de fāng fǎ lái zhào gù zì jǐ"
+    },
+    {
+      "index": 59,
+      "start_sec": 220.06,
+      "end_sec": 225.06,
+      "text_zh": "而喝热水就是我们文化里公认的对身体有好处的第一步。",
+      "pinyin": "ér hē rè shuǐ jiù shì wǒ men wén huà lǐ gōng rèn de duì shēn tǐ yǒu hǎo chù de dì yī bù"
+    },
+    {
+      "index": 60,
+      "start_sec": 225.06,
+      "end_sec": 227.06,
+      "text_zh": "嗯,你说得有道理。",
+      "pinyin": "ń nǐ shuō dé yǒu dào lǐ"
+    },
+    {
+      "index": 61,
+      "start_sec": 227.06,
+      "end_sec": 231.06,
+      "text_zh": "就像我妈妈,从小到大,只要我有一点不舒服,",
+      "pinyin": "jiù xiàng wǒ mā mā cóng xiǎo dào dà zhǐ yào wǒ yǒu yì diǎn bù shū fú"
+    },
+    {
+      "index": 62,
+      "start_sec": 231.06,
+      "end_sec": 235.06,
+      "text_zh": "比如喉咙疼,或者吃坏了东西肚子不舒服,",
+      "pinyin": "bǐ rú hóu lóng téng huò zhě chī huài le dōng xī dǔ zi bù shū fú"
+    },
+    {
+      "index": 63,
+      "start_sec": 235.06,
+      "end_sec": 238.06,
+      "text_zh": "她的第一反应永远是,快,去喝杯热水。",
+      "pinyin": "tā de dì yī fǎn yìng yǒng yuǎn shì kuài qù hē bēi rè shuǐ"
+    },
+    {
+      "index": 64,
+      "start_sec": 238.06,
+      "end_sec": 243.06,
+      "text_zh": "她会亲自给我倒一杯温度刚刚好的水,看着我喝下去。",
+      "pinyin": "tā huì qīn zì gěi wǒ dào yī bēi wēn dù gāng gāng hǎo de shuǐ kàn zhe wǒ hē xià qù"
+    },
+    {
+      "index": 65,
+      "start_sec": 243.06,
+      "end_sec": 248.06,
+      "text_zh": "那个时候,我觉得那杯水里不只是水,还有妈妈的关心和爱。",
+      "pinyin": "nà ge shí hòu wǒ jué de nà bēi shuǐ lǐ bù zhǐ shì shuǐ hái yǒu mā mā de guān xīn hé ài"
+    },
+    {
+      "index": 66,
+      "start_sec": 248.06,
+      "end_sec": 249.06,
+      "text_zh": "是的。",
+      "pinyin": "shì de"
+    },
+    {
+      "index": 67,
+      "start_sec": 249.06,
+      "end_sec": 254.06,
+      "text_zh": "所以,多喝热水这句话,你要看是谁说的,在什么情况下说的。",
+      "pinyin": "suǒ yǐ duō hē rè shuǐ zhè jù huà nǐ yào kàn shì shuí shuō de zài shén me qíng kuàng xià shuō de"
+    },
+    {
+      "index": 68,
+      "start_sec": 254.06,
+      "end_sec": 258.06,
+      "text_zh": "如果是一个不太熟悉的人说的,可能听起来有点客套。",
+      "pinyin": "rú guǒ shì yí gè bù tài shú xī de rén shuō de kě néng tīng qǐ lái yǒu diǎn kè tào"
+    },
+    {
+      "index": 69,
+      "start_sec": 258.06,
+      "end_sec": 265.06,
+      "text_zh": "但如果是家人或者很亲密的朋友说的,这四个字背后其实是一种深深的关心。",
+      "pinyin": "dàn rú guǒ shì jiā rén huò zhě hěn qīn mì de péng yǒu shuō de zhè sì gè zì bèi hòu qí shí shì yī zhǒng shēn shēn de guān xīn"
+    },
+    {
+      "index": 70,
+      "start_sec": 265.06,
+      "end_sec": 270.06,
+      "text_zh": "她像是在说,我虽然不能替你难受,但我希望你能快点好起来。",
+      "pinyin": "tā xiàng shì zài shuō wǒ suī rán bù néng tì nǐ nán shòu dàn wǒ xī wàng nǐ néng kuài diǎn hǎo qǐ lái"
+    },
+    {
+      "index": 71,
+      "start_sec": 270.06,
+      "end_sec": 274.06,
+      "text_zh": "这是我能想到的对你最好的、最直接的帮助。",
+      "pinyin": "zhè shì wǒ néng xiǎng dào de duì nǐ zuì hǎo de zuì zhí jiē de bāng zhù"
+    },
+    {
+      "index": 72,
+      "start_sec": 274.06,
+      "end_sec": 277.06,
+      "text_zh": "我明白了,它是一种文化习惯的体现。",
+      "pinyin": "wǒ míng bái le tā shì yī zhǒng wén huà xí guàn de tǐ xiàn"
+    },
+    {
+      "index": 73,
+      "start_sec": 277.06,
+      "end_sec": 280.06,
+      "text_zh": "我们习惯了用这种方式来表达我们的关心。",
+      "pinyin": "wǒ men xí guàn le yòng zhè zhǒng fāng shì lái biǎo dá wǒ men de guān xīn"
+    },
+    {
+      "index": 74,
+      "start_sec": 280.06,
+      "end_sec": 285.06,
+      "text_zh": "而且说实话,很多时候喝点热水确实感觉身体会舒服很多。",
+      "pinyin": "ér qiě shuō shí huà hěn duō shí hòu hē diǎn rè shuǐ què shí gǎn jué shēn tǐ huì shū fú hěn duō"
+    },
+    {
+      "index": 75,
+      "start_sec": 285.06,
+      "end_sec": 291.06,
+      "text_zh": "比如感冒的时候,喝热水能让身体暖和起来,也能让鼻子通畅一些。",
+      "pinyin": "bǐ rú gǎn mào de shí hòu hē rè shuǐ néng ràng shēn tǐ nuǎn huo qǐ lái yě néng ràng bí zi tōng chàng yī xiē"
+    },
+    {
+      "index": 76,
+      "start_sec": 291.06,
+      "end_sec": 292.06,
+      "text_zh": "完全正确。",
+      "pinyin": "wán quán zhèng què"
+    },
+    {
+      "index": 77,
+      "start_sec": 292.06,
+      "end_sec": 299.06,
+      "text_zh": "所以这句话虽然听起来像一句万能回答,但它是有实际作用和文化背景的。",
+      "pinyin": "suǒ yǐ zhè jù huà suī rán tīng qǐ lái xiàng yī jù wàn néng huí dá dàn tā shì yǒu shí jì zuò yòng hé wén huà bèi jǐng de"
+    },
+    {
+      "index": 78,
+      "start_sec": 299.06,
+      "end_sec": 302.06,
+      "text_zh": "它代表了一种朴素的健康观念。",
+      "pinyin": "tā dài biǎo le yī zhǒng pǔ sù de jiàn kāng guān niàn"
+    },
+    {
+      "index": 79,
+      "start_sec": 302.06,
+      "end_sec": 307.06,
+      "text_zh": "身体不舒服时,先从最基本、最温和的方式开始调理。",
+      "pinyin": "shēn tǐ bù shū fú shí xiān cóng zuì jī běn zuì wēn hé de fāng shì kāi shǐ tiáo lǐ"
+    },
+    {
+      "index": 80,
+      "start_sec": 307.06,
+      "end_sec": 315.06,
+      "text_zh": "说到这里,可能有一些正在听我们播客的朋友会觉得我们聊得有点快,或者有些词听不太懂。",
+      "pinyin": "shuō dào zhè lǐ kě néng yǒu yī xiē zhèng zài tīng wǒ men bō kè de péng yǒu huì jué de wǒ men liáo dé yǒu diǎn kuài huò zhě yǒu xiē cí tīng bù tài dǒng"
+    },
+    {
+      "index": 81,
+      "start_sec": 315.06,
+      "end_sec": 316.06,
+      "text_zh": "这完全没关系哦。",
+      "pinyin": "zhè wán quán méi guān xì ó"
+    },
+    {
+      "index": 82,
+      "start_sec": 316.06,
+      "end_sec": 322.06,
+      "text_zh": "大家可以试着从我们说话的语气和整个对话内容里猜一猜词的意思。",
+      "pinyin": "dà jiā kě yǐ shì zhe cóng wǒ men shuō huà de yǔ qì hé zhěng gè duì huà nèi róng lǐ cāi yī cāi cí de yì si"
+    },
+    {
+      "index": 83,
+      "start_sec": 322.06,
+      "end_sec": 327.06,
+      "text_zh": "如果实在不明白,也可以打开YouTube的字幕,或者多听几遍。",
+      "pinyin": "rú guǒ shí zài bù míng bái yě kě yǐ dǎ kāi de zì mù huò zhě duō tīng jǐ biàn"
+    },
+    {
+      "index": 84,
+      "start_sec": 327.06,
+      "end_sec": 332.06,
+      "text_zh": "当然,我们节目最后也会把一些重要的词语再解释一下。",
+      "pinyin": "dāng rán wǒ men jié mù zuì hòu yě huì bǎ yī xiē zhòng yào de cí yǔ zài jiě shì yī xià"
+    },
+    {
+      "index": 85,
+      "start_sec": 332.06,
+      "end_sec": 335.06,
+      "text_zh": "大家也可以去我们播客看完整的文字稿。",
+      "pinyin": "dà jiā yě kě yǐ qù wǒ men bō kè kàn wán zhěng de wén zì gǎo"
+    },
+    {
+      "index": 86,
+      "start_sec": 335.06,
+      "end_sec": 339.06,
+      "text_zh": "学习语言就是这样,慢慢来,不用着急。",
+      "pinyin": "xué xí yǔ yán jiù shì zhè yàng màn màn lái bù yòng zháo jí"
+    },
+    {
+      "index": 87,
+      "start_sec": 339.06,
+      "end_sec": 342.06,
+      "text_zh": "王雨说得特别好,学习是一个过程。",
+      "pinyin": "wáng yǔ shuō dé tè bié hǎo xué xí shì yí gè guò chéng"
+    },
+    {
+      "index": 88,
+      "start_sec": 342.06,
+      "end_sec": 346.06,
+      "text_zh": "那么,我们刚刚讨论了多喝热水这句话本身。",
+      "pinyin": "nà me wǒ men gāng gāng tǎo lùn le duō hē rè shuǐ zhè jù huà běn shēn"
+    },
+    {
+      "index": 89,
+      "start_sec": 346.06,
+      "end_sec": 351.06,
+      "text_zh": "但一个更有意思的问题是,为什么是中国人这么爱喝热水?",
+      "pinyin": "dàn yí gè gèng yǒu yì si de wèn tí shì wèi shén me shì zhōng guó rén zhè me ài hē rè shuǐ"
+    },
+    {
+      "index": 90,
+      "start_sec": 351.06,
+      "end_sec": 355.06,
+      "text_zh": "好像在很多别的国家,大家更喜欢喝冰水。",
+      "pinyin": "hǎo xiàng zài hěn duō bié de guó jiā dà jiā gèng xǐ huān hē bīng shuǐ"
+    },
+    {
+      "index": 91,
+      "start_sec": 355.06,
+      "end_sec": 363.06,
+      "text_zh": "没错,我第一次去美国的时候,去餐厅吃饭,服务员什么都不问,直接就给我一杯加了很多冰块的水。",
+      "pinyin": "méi cuò wǒ dì yī cì qù měi guó de shí hòu qù cān tīng chī fàn fú wù yuán shén me dōu bù wèn zhí jiē jiù gěi wǒ yī bēi jiā le hěn duō bīng kuài de shuǐ"
+    },
+    {
+      "index": 92,
+      "start_sec": 363.06,
+      "end_sec": 365.06,
+      "text_zh": "我当时都惊呆了。",
+      "pinyin": "wǒ dāng shí dōu jīng dāi le"
+    },
+    {
+      "index": 93,
+      "start_sec": 365.06,
+      "end_sec": 368.06,
+      "text_zh": "这个问题我们接下来就要好好聊一聊。",
+      "pinyin": "zhè ge wèn tí wǒ men jiē xià lái jiù yào hǎo hǎo liáo yī liáo"
+    },
+    {
+      "index": 94,
+      "start_sec": 368.06,
+      "end_sec": 375.06,
+      "text_zh": "刚刚王雨提到了一个非常好的观察点,就是中西方在饮水习惯上的巨大差异。",
+      "pinyin": "gāng gāng wáng yǔ tí dào le yí gè fēi cháng hǎo de guān chá diǎn jiù shì zhōng xī fāng zài yǐn shuǐ xí guàn shàng de jù dà chā yì"
+    },
+    {
+      "index": 95,
+      "start_sec": 375.06,
+      "end_sec": 379.06,
+      "text_zh": "中国人爱喝热水,而很多西方人习惯喝冰水。",
+      "pinyin": "zhōng guó rén ài hē rè shuǐ ér hěn duō xī fāng rén xí guàn hē bīng shuǐ"
+    },
+    {
+      "index": 96,
+      "start_sec": 379.06,
+      "end_sec": 385.06,
+      "text_zh": "这个习惯不是凭空出现的,它背后有很深的历史和文化原因。",
+      "pinyin": "zhè ge xí guàn bú shì píng kōng chū xiàn de tā bèi hòu yǒu hěn shēn de lì shǐ hé wén huà yuán yīn"
+    },
+    {
+      "index": 97,
+      "start_sec": 385.06,
+      "end_sec": 387.06,
+      "text_zh": "哦,这里面还有历史故事。",
+      "pinyin": "ó zhè lǐ miàn hái yǒu lì shǐ gù shì"
+    },
+    {
+      "index": 98,
+      "start_sec": 387.06,
+      "end_sec": 392.06,
+      "text_zh": "我只知道我奶奶告诉我,喝太冷的水对胃不好。",
+      "pinyin": "wǒ zhǐ zhī dào wǒ nǎi nǎi gào sù wǒ hē tài lěng de shuǐ duì wèi bù hǎo"
+    },
+    {
+      "index": 99,
+      "start_sec": 392.06,
+      "end_sec": 396.06,
+      "text_zh": "你奶奶说的其实是中医理的一个基本观念。",
+      "pinyin": "nǐ nǎi nǎi shuō de qí shí shì zhōng yī lǐ de yí gè jī běn guān niàn"
+    },
+    {
+      "index": 100,
+      "start_sec": 396.06,
+      "end_sec": 403.06,
+      "text_zh": "但在中医理论形成之前,还有一个更实际更基本的原因,那就是卫生问题。",
+      "pinyin": "dàn zài zhōng yī lǐ lùn xíng chéng zhī qián hái yǒu yí gè gèng shí jì gèng jī běn de yuán yīn nà jiù shì wèi shēng wèn tí"
+    },
+    {
+      "index": 101,
+      "start_sec": 403.06,
+      "end_sec": 409.06,
+      "text_zh": "在古代,中国的饮用水不像现在这么干净,水里可能有很多细菌。",
+      "pinyin": "zài gǔ dài zhōng guó de yǐn yòng shuǐ bù xiàng xiàn zài zhè me gān jìng shuǐ lǐ kě néng yǒu hěn duō xì jūn"
+    },
+    {
+      "index": 102,
+      "start_sec": 409.06,
+      "end_sec": 414.06,
+      "text_zh": "古人发现,把水烧开再喝,就不容易生病拉肚子了。",
+      "pinyin": "gǔ rén fā xiàn bǎ shuǐ shāo kāi zài hē jiù bù róng yì shēng bìng lā dù zi le"
+    },
+    {
+      "index": 103,
+      "start_sec": 414.06,
+      "end_sec": 422.06,
+      "text_zh": "啊,我明白了,所以烧水喝最开始是为了杀菌,保证健康,这是一个非常实用的生活智慧。",
+      "pinyin": "a wǒ míng bái le suǒ yǐ shāo shuǐ hē zuì kāi shǐ shì wèi le shā jūn bǎo zhèng jiàn kāng zhè shì yí gè fēi cháng shí yòng de shēng huó zhì huì"
+    },
+    {
+      "index": 104,
+      "start_sec": 422.06,
+      "end_sec": 428.06,
+      "text_zh": "正是如此,这个习惯一代一代传下来,就刻在了我们的文化基因里。",
+      "pinyin": "zhèng shì rú cǐ zhè ge xí guàn yí dài yí dài chuán xià lái jiù kè zài le wǒ men de wén huà jī yīn lǐ"
+    },
+    {
+      "index": 105,
+      "start_sec": 428.06,
+      "end_sec": 437.06,
+      "text_zh": "后来,在新中国成立初期,政府也大力提倡喝开水的卫生运动,让这个习惯变得更加普及。",
+      "pinyin": "hòu lái zài xīn zhōng guó chéng lì chū qī zhèng fǔ yě dà lì tí chàng hē kāi shuǐ de wèi shēng yùn dòng ràng zhè ge xí guàn biàn dé gèng jiā pǔ jí"
+    },
+    {
+      "index": 106,
+      "start_sec": 437.06,
+      "end_sec": 447.06,
+      "text_zh": "所以,对老一辈人来说,喝生水或者喝冷水是一件几乎不能想象的事情,他们会觉得那是不卫生的,对身体有害的。",
+      "pinyin": "suǒ yǐ duì lǎo yī bèi rén lái shuō hē shēng shuǐ huò zhě hē lěng shuǐ shì yī jiàn jī hū bù néng xiǎng xiàng de shì qíng tā men huì jué de nà shì bù wèi shēng de duì shēn tǐ yǒu hài de"
+    },
+    {
+      "index": 107,
+      "start_sec": 448.06,
+      "end_sec": 455.46,
+      "text_zh": "原来是这样,这个历史原因很有说服力,那你刚才提到的中医观念又是怎么解释的?",
+      "pinyin": "yuán lái shì zhè yàng zhè ge lì shǐ yuán yīn hěn yǒu shuō fú lì nà nǐ gāng cái tí dào de zhōng yī guān niàn yòu shì zěn me jiě shì de"
+    },
+    {
+      "index": 108,
+      "start_sec": 455.46,
+      "end_sec": 458.06,
+      "text_zh": "为什么中医也认为要喝热水?",
+      "pinyin": "wèi shén me zhōng yī yě rèn wéi yào hē rè shuǐ"
+    },
+    {
+      "index": 109,
+      "start_sec": 458.06,
+      "end_sec": 467.06,
+      "text_zh": "这个问题就更深入了,在中医理论里,人的身体讲究一个平衡,特别是阴阳和寒热的平衡。",
+      "pinyin": "zhè ge wèn tí jiù gēng shēn rù le zài zhōng yī lǐ lùn lǐ rén de shēn tǐ jiǎng jiū yí gè píng héng tè bié shì yīn yáng hé hán rè de píng héng"
+    },
+    {
+      "index": 110,
+      "start_sec": 467.06,
+      "end_sec": 476.06,
+      "text_zh": "中医认为我们吃的很多食物都有寒性和热性的区别,比如西瓜是寒性的,羊肉是热性的。",
+      "pinyin": "zhōng yī rèn wéi wǒ men chī de hěn duō shí wù dōu yǒu hán xìng hé rè xìng de qū bié bǐ rú xī guā shì hán xìng de yáng ròu shì rè xìng de"
+    },
+    {
+      "index": 111,
+      "start_sec": 476.06,
+      "end_sec": 483.06,
+      "text_zh": "这个我听说过,我妈妈冬天就经常做羊肉汤给我们喝,说可以暖身体。",
+      "pinyin": "zhè ge wǒ tīng shuō guò wǒ mā mā dōng tiān jiù jīng cháng zuò yáng ròu tāng gěi wǒ men hē shuō kě yǐ nuǎn shēn tǐ"
+    },
+    {
+      "index": 112,
+      "start_sec": 483.06,
+      "end_sec": 490.06,
+      "text_zh": "对,而水,特别是冰水,在中医看来是寒气最重的东西之一。",
+      "pinyin": "duì ér shuǐ tè bié shì bīng shuǐ zài zhōng yī kàn lái shì hán qì zuì zhòng de dōng xī zhī yī"
+    },
+    {
+      "index": 113,
+      "start_sec": 490.06,
+      "end_sec": 496.06,
+      "text_zh": "你想,人的身体,尤其是胃,需要一个温暖的环境来消化食物。",
+      "pinyin": "nǐ xiǎng rén de shēn tǐ yóu qí shì wèi xū yào yí gè wēn nuǎn de huán jìng lái xiāo huà shí wù"
+    },
+    {
+      "index": 114,
+      "start_sec": 496.06,
+      "end_sec": 503.06,
+      "text_zh": "如果你突然喝下去一杯冰水,就好像往一个正在燃烧的火炉里浇了一盆冷水。",
+      "pinyin": "rú guǒ nǐ tū rán hē xià qù yī bēi bīng shuǐ jiù hǎo xiàng wǎng yí gè zhèng zài rán shāo de huǒ lú lǐ jiāo le yī pén lěng shuǐ"
+    },
+    {
+      "index": 115,
+      "start_sec": 503.06,
+      "end_sec": 514.06,
+      "text_zh": "哇,你这个比喻太形象了,往火炉里浇冷水,我一下子就懂了,胃需要温暖,冰水会让它冷下来,减慢它的工作速度。",
+      "pinyin": "wa nǐ zhè ge bǐ yù tài xíng xiàng le wǎng huǒ lú lǐ jiāo lěng shuǐ wǒ yī xià zi jiù dǒng le wèi xū yào wēn nuǎn bīng shuǐ huì ràng tā lěng xià lái jiǎn màn tā de gōng zuò sù dù"
+    },
+    {
+      "index": 116,
+      "start_sec": 514.06,
+      "end_sec": 521.06,
+      "text_zh": "是的,中医认为长期的寒气会伤害我们的消化系统,也就是中医说的脾胃。",
+      "pinyin": "shì de zhōng yī rèn wéi cháng qī de hán qì huì shāng hài wǒ men de xiāo huà xì tǒng yě jiù shì zhōng yī shuō de pí wèi"
+    },
+    {
+      "index": 117,
+      "start_sec": 521.06,
+      "end_sec": 528.06,
+      "text_zh": "脾胃功能不好,人就容易觉得累,脸色不好,还会出现各种各样的小毛病。",
+      "pinyin": "pí wèi gōng néng bù hǎo rén jiù róng yì jué de lèi liǎn sè bù hǎo hái huì chū xiàn gè zhǒng gè yàng de xiǎo máo bìng"
+    },
+    {
+      "index": 118,
+      "start_sec": 528.06,
+      "end_sec": 537.06,
+      "text_zh": "所以喝温水或者热水,就像是在保护我们身体里的这个火炉,给它温暖,帮助它更好的工作。",
+      "pinyin": "suǒ yǐ hē wēn shuǐ huò zhě rè shuǐ jiù xiàng shì zài bǎo hù wǒ men shēn tǐ lǐ de zhè ge huǒ lú gěi tā wēn nuǎn bāng zhù tā gèng hǎo de gōng zuò"
+    },
+    {
+      "index": 119,
+      "start_sec": 537.06,
+      "end_sec": 540.06,
+      "text_zh": "我感觉我好像有点被说服了。",
+      "pinyin": "wǒ gǎn jué wǒ hǎo xiàng yǒu diǎn bèi shuō fú le"
+    },
+    {
+      "index": 120,
+      "start_sec": 540.06,
+      "end_sec": 549.06,
+      "text_zh": "但是说实话,李明,夏天天气那么热的时候,喝一杯冰镇的可乐或者果汁,那种感觉真的太爽了。",
+      "pinyin": "dàn shì shuō shí huà lǐ míng xià tiān tiān qì nà me rè de shí hòu hē yī bēi bīng zhèn de kě lè huò zhě guǒ zhī nà zhǒng gǎn jué zhēn de tài shuǎng le"
+    },
+    {
+      "index": 121,
+      "start_sec": 549.06,
+      "end_sec": 553.06,
+      "text_zh": "很多听我们节目的外国朋友可能跟我有一样的感觉。",
+      "pinyin": "hěn duō tīng wǒ men jié mù de wài guó péng yǒu kě néng gēn wǒ yǒu yī yàng de gǎn jué"
+    },
+    {
+      "index": 122,
+      "start_sec": 553.06,
+      "end_sec": 557.16,
+      "text_zh": "他们可能会问,难道中国人夏天也不喝凉饮吗?",
+      "pinyin": "tā men kě néng huì wèn nán dào zhōng guó rén xià tiān yě bù hē liáng yǐn ma"
+    },
+    {
+      "index": 123,
+      "start_sec": 557.16,
+      "end_sec": 561.06,
+      "text_zh": "我们看到街上奶茶店里也买很多冰的饮料啊。",
+      "pinyin": "wǒ men kàn dào jiē shàng nǎi chá diàn lǐ yě mǎi hěn duō bīng de yǐn liào a"
+    },
+    {
+      "index": 124,
+      "start_sec": 561.06,
+      "end_sec": 567.06,
+      "text_zh": "这个是一个非常好的问题,也正是很多学习中文的外国朋友会感到的困惑。",
+      "pinyin": "zhè ge shì yí gè fēi cháng hǎo de wèn tí yě zhèng shì hěn duō xué xí zhōng wén de wài guó péng yǒu huì gǎn dào de kùn huò"
+    },
+    {
+      "index": 125,
+      "start_sec": 567.06,
+      "end_sec": 573.06,
+      "text_zh": "你说得对,现在的中国年轻人也越来越多地接受了喝凉饮的习惯。",
+      "pinyin": "nǐ shuō dé duì xiàn zài de zhōng guó nián qīng rén yě yuè lái yuè duō dì jiē shòu le hē liáng yǐn de xí guàn"
+    },
+    {
+      "index": 126,
+      "start_sec": 573.06,
+      "end_sec": 576.06,
+      "text_zh": "但是你会发现一些有趣的细节。",
+      "pinyin": "dàn shì nǐ huì fā xiàn yī xiē yǒu qù de xì jié"
+    },
+    {
+      "index": 127,
+      "start_sec": 576.06,
+      "end_sec": 577.06,
+      "text_zh": "比如?",
+      "pinyin": "bǐ rú"
+    },
+    {
+      "index": 128,
+      "start_sec": 577.06,
+      "end_sec": 587.06,
+      "text_zh": "比如,一个中国女孩,即使她平时很爱喝冰奶茶,但在她每个月的特殊时期,她几乎一定会选择喝热的或者常温的。",
+      "pinyin": "bǐ rú yí gè zhōng guó nǚ hái jí shǐ tā píng shí hěn ài hē bīng nǎi chá dàn zài tā měi gè yuè de tè shū shí qī tā jī hū yí dìng huì xuǎn zé hē rè de huò zhě cháng wēn de"
+    },
+    {
+      "index": 129,
+      "start_sec": 588.06,
+      "end_sec": 597.06,
+      "text_zh": "因为在中医和老一辈人的观念里,女性的身体更容易受到寒气的伤害,喝冰水对女性尤其不好。",
+      "pinyin": "yīn wèi zài zhōng yī hé lǎo yī bèi rén de guān niàn lǐ nǚ xìng de shēn tǐ gèng róng yì shòu dào hán qì de shāng hài hē bīng shuǐ duì nǚ xìng yóu qí bù hǎo"
+    },
+    {
+      "index": 130,
+      "start_sec": 597.06,
+      "end_sec": 599.06,
+      "text_zh": "哦,这个我深有体会。",
+      "pinyin": "ó zhè ge wǒ shēn yǒu tǐ huì"
+    },
+    {
+      "index": 131,
+      "start_sec": 599.06,
+      "end_sec": 605.06,
+      "text_zh": "我妈妈和奶奶从小就跟我说,女孩子不要喝那么多冰的,对身体不好。",
+      "pinyin": "wǒ mā mā hé nǎi nǎi cóng xiǎo jiù gēn wǒ shuō nǚ hái zi bú yào hē nà me duō bīng de duì shēn tǐ bù hǎo"
+    },
+    {
+      "index": 132,
+      "start_sec": 605.06,
+      "end_sec": 611.06,
+      "text_zh": "以前我不懂,现在我明白了,这背后就是中医里关于寒气的理论。",
+      "pinyin": "yǐ qián wǒ bù dǒng xiàn zài wǒ míng bái le zhè bèi hòu jiù shì zhōng yī lǐ guān yú hán qì de lǐ lùn"
+    },
+    {
+      "index": 133,
+      "start_sec": 611.06,
+      "end_sec": 627.06,
+      "text_zh": "是的,所以你可以看到,即使在现代社会,即使我们身边有各种各样的粮饮,但喝热水对身体好这个核心观念依然深深地影响着大部分中国人,尤其是关系到养生这个话题的时候。",
+      "pinyin": "shì de suǒ yǐ nǐ kě yǐ kàn dào jí shǐ zài xiàn dài shè huì jí shǐ wǒ men shēn biān yǒu gè zhǒng gè yàng de liáng yǐn dàn hē rè shuǐ duì shēn tǐ hǎo zhè ge hé xīn guān niàn yī rán shēn shēn dì yǐng xiǎng zhe dà bù fèn zhōng guó rén yóu qí shì guān xì dào yǎng shēng zhè ge huà tí de shí hòu"
+    },
+    {
+      "index": 134,
+      "start_sec": 627.06,
+      "end_sec": 632.06,
+      "text_zh": "养生这个词我们好像经常听到,它具体是什么意思呢?",
+      "pinyin": "yǎng shēng zhè ge cí wǒ men hǎo xiàng jīng cháng tīng dào tā jù tǐ shì shén me yì si ne"
+    },
+    {
+      "index": 135,
+      "start_sec": 632.06,
+      "end_sec": 640.06,
+      "text_zh": "养生,简单来说,就是通过各种方法来保养我们的身体,让我们保持健康,活得更长久。",
+      "pinyin": "yǎng shēng jiǎn dān lái shuō jiù shì tōng guò gè zhǒng fāng fǎ lái bǎo yǎng wǒ men de shēn tǐ ràng wǒ men bǎo chí jiàn kāng huó dé gèng cháng jiǔ"
+    },
+    {
+      "index": 136,
+      "start_sec": 640.06,
+      "end_sec": 650.06,
+      "text_zh": "它不只是指生病了去看医生,更多的是指在日常生活中通过注意饮食、休息、运动等方式来预防疾病。",
+      "pinyin": "tā bù zhǐ shì zhǐ shēng bìng le qù kàn yī shēng gèng duō de shì zhǐ zài rì cháng shēng huó zhōng tōng guò zhù yì yǐn shí xiū xī yùn dòng děng fāng shì lái yù fáng jí bìng"
+    },
+    {
+      "index": 137,
+      "start_sec": 650.06,
+      "end_sec": 654.06,
+      "text_zh": "喝热水就是最简单、最普及的一种养生方式。",
+      "pinyin": "hē rè shuǐ jiù shì zuì jiǎn dān zuì pǔ jí de yī zhǒng yǎng shēng fāng shì"
+    },
+    {
+      "index": 138,
+      "start_sec": 655.06,
+      "end_sec": 662.06,
+      "text_zh": "我懂了,所以喝热水不仅仅是一个解渴的动作,它还是一种养生的态度。",
+      "pinyin": "wǒ dǒng le suǒ yǐ hē rè shuǐ bù jǐn jǐn shì yí gè jiě kě de dòng zuò tā hái shì yī zhǒng yǎng shēng de tài dù"
+    },
+    {
+      "index": 139,
+      "start_sec": 662.06,
+      "end_sec": 668.06,
+      "text_zh": "这下我终于彻底领悟为什么我的中国朋友们都那么喜欢让我多喝热水了。",
+      "pinyin": "zhè xià wǒ zhōng yú chè dǐ lǐng wù wèi shén me wǒ de zhōng guó péng yǒu men dōu nà me xǐ huān ràng wǒ duō hē rè shuǐ le"
+    },
+    {
+      "index": 140,
+      "start_sec": 668.06,
+      "end_sec": 674.06,
+      "text_zh": "刚刚我们从历史和文化的角度解释了为什么中国人爱喝热水。",
+      "pinyin": "gāng gāng wǒ men cóng lì shǐ hé wén huà de jiǎo dù jiě shì le wèi shén me zhōng guó rén ài hē rè shuǐ"
+    },
+    {
+      "index": 141,
+      "start_sec": 674.06,
+      "end_sec": 680.06,
+      "text_zh": "现在我们可以聊得更具体一点,看看热水在我们的日常生活中到底是什么样的。",
+      "pinyin": "xiàn zài wǒ men kě yǐ liáo dé gèng jù tǐ yì diǎn kàn kàn rè shuǐ zài wǒ men de rì cháng shēng huó zhōng dào dǐ shì shén me yàng de"
+    },
+    {
+      "index": 142,
+      "start_sec": 680.06,
+      "end_sec": 684.06,
+      "text_zh": "王雨,你除了生病的时候,平时会主动喝热水吗?",
+      "pinyin": "wáng yǔ nǐ chú le shēng bìng de shí hòu píng shí huì zhǔ dòng hē rè shuǐ ma"
+    },
+    {
+      "index": 143,
+      "start_sec": 684.06,
+      "end_sec": 692.06,
+      "text_zh": "以前真的很少,我跟你正好相反,我以前特别喜欢喝各种饮料,觉得白开水没有味道。",
+      "pinyin": "yǐ qián zhēn de hěn shǎo wǒ gēn nǐ zhèng hǎo xiāng fǎn wǒ yǐ qián tè bié xǐ huān hē gè zhǒng yǐn liào jué de bái kāi shuǐ méi yǒu wèi dào"
+    },
+    {
+      "index": 144,
+      "start_sec": 692.06,
+      "end_sec": 695.06,
+      "text_zh": "但是最近几年我开始改变了。",
+      "pinyin": "dàn shì zuì jìn jǐ nián wǒ kāi shǐ gǎi biàn le"
+    },
+    {
+      "index": 145,
+      "start_sec": 695.06,
+      "end_sec": 697.06,
+      "text_zh": "哦,是什么让你改变的?",
+      "pinyin": "ó shì shén me ràng nǐ gǎi biàn de"
+    },
+    {
+      "index": 146,
+      "start_sec": 697.06,
+      "end_sec": 699.06,
+      "text_zh": "有几个原因吧。",
+      "pinyin": "yǒu jǐ gè yuán yīn ba"
+    },
+    {
+      "index": 147,
+      "start_sec": 699.06,
+      "end_sec": 707.06,
+      "text_zh": "第一是年纪慢慢大了,感觉身体不像以前那么好了,有时候喝了太多冰的东西胃真的会不舒服。",
+      "pinyin": "dì yī shì nián jì màn màn dà le gǎn jué shēn tǐ bù xiàng yǐ qián nà me hǎo le yǒu shí hòu hē le tài duō bīng de dōng xī wèi zhēn de huì bù shū fú"
+    },
+    {
+      "index": 148,
+      "start_sec": 708.06,
+      "end_sec": 718.06,
+      "text_zh": "第二是我看到身边很多朋友,特别是那些皮肤特别好,身体特别健康的朋友,他们真的很少喝饮料,基本上都只喝温水。",
+      "pinyin": "dì èr shì wǒ kàn dào shēn biān hěn duō péng yǒu tè bié shì nà xiē pí fū tè bié hǎo shēn tǐ tè bié jiàn kāng de péng yǒu tā men zhēn de hěn shǎo hē yǐn liào jī běn shàng dōu zhǐ hē wēn shuǐ"
+    },
+    {
+      "index": 149,
+      "start_sec": 718.06,
+      "end_sec": 728.06,
+      "text_zh": "这是一个很好的观察,即使喝热水或者温水对皮肤也有好处,因为它能促进身体的血液循环和脉瀉。",
+      "pinyin": "zhè shì yí gè hěn hǎo de guān chá jí shǐ hē rè shuǐ huò zhě wēn shuǐ duì pí fū yě yǒu hǎo chù yīn wèi tā néng cù jìn shēn tǐ de xuè yè xún huán hé mài xiè"
+    },
+    {
+      "index": 150,
+      "start_sec": 728.06,
+      "end_sec": 737.06,
+      "text_zh": "没错,我现在office里也放了一个电热水壶,随时都能喝到热水,我还学着像你一样在水里放一些东西。",
+      "pinyin": "méi cuò wǒ xiàn zài lǐ yě fàng le yí gè diàn rè shuǐ hú suí shí dōu néng hē dào rè shuǐ wǒ hái xué zhe xiàng nǐ yī yàng zài shuǐ lǐ fàng yī xiē dōng xī"
+    },
+    {
+      "index": 151,
+      "start_sec": 737.06,
+      "end_sec": 741.06,
+      "text_zh": "你说的是我保温杯里的那些东西吗?",
+      "pinyin": "nǐ shuō de shì wǒ bǎo wēn bēi lǐ de nà xiē dōng xī ma"
+    },
+    {
+      "index": 152,
+      "start_sec": 741.06,
+      "end_sec": 754.06,
+      "text_zh": "对啊,我经常看到你的杯子里有红色的枸杞,有时候还有红枣,我感觉你那个杯子就像一个魔法瓶,里面张的不是普通的水,是养生神水。",
+      "pinyin": "duì a wǒ jīng cháng kàn dào nǐ de bēi zi lǐ yǒu hóng sè de gǒu qǐ yǒu shí hòu hái yǒu hóng zǎo wǒ gǎn jué nǐ nà ge bēi zi jiù xiàng yí gè mó fǎ píng lǐ miàn zhāng de bú shì pǔ tōng de shuǐ shì yǎng shēng shén shuǐ"
+    },
+    {
+      "index": 153,
+      "start_sec": 754.06,
+      "end_sec": 759.06,
+      "text_zh": "你说的太夸张了,这其实也是一种很常见的养生方法。",
+      "pinyin": "nǐ shuō de tài kuā zhāng le zhè qí shí yě shì yī zhǒng hěn cháng jiàn de yǎng shēng fāng fǎ"
+    },
+    {
+      "index": 154,
+      "start_sec": 759.06,
+      "end_sec": 768.06,
+      "text_zh": "枸杞和荣枣在中医里被认为是对身体有好的食材,比如,枸杞对眼睛好,荣枣能补气血。",
+      "pinyin": "gǒu qǐ hé róng zǎo zài zhōng yī lǐ bèi rèn wéi shì duì shēn tǐ yǒu hǎo de shí cái bǐ rú gǒu qǐ duì yǎn jīng hǎo róng zǎo néng bǔ qì xuè"
+    },
+    {
+      "index": 155,
+      "start_sec": 768.06,
+      "end_sec": 779.06,
+      "text_zh": "把它们泡在热水里,它们的营养成分就能更好地被身体吸收,喝水的时候也增加了一点淡淡的甜味,比喝白开水更有趣。",
+      "pinyin": "bǎ tā men pào zài rè shuǐ lǐ tā men de yíng yǎng chéng fèn jiù néng gèng hǎo dì bèi shēn tǐ xī shōu hē shuǐ de shí hòu yě zēng jiā le yì diǎn dàn dàn de tián wèi bǐ hē bái kāi shuǐ gèng yǒu qù"
+    },
+    {
+      "index": 156,
+      "start_sec": 779.06,
+      "end_sec": 787.06,
+      "text_zh": "真的,我现在也开始在水里泡一些柠檬片或者菊花,感觉这样喝水变成了一件很享受的事情。",
+      "pinyin": "zhēn de wǒ xiàn zài yě kāi shǐ zài shuǐ lǐ pào yī xiē níng méng piàn huò zhě jú huā gǎn jué zhè yàng hē shuǐ biàn chéng le yī jiàn hěn xiǎng shòu de shì qíng"
+    },
+    {
+      "index": 157,
+      "start_sec": 787.06,
+      "end_sec": 796.06,
+      "text_zh": "喝热水就像你之前说的那个比喻一样,像是给自己的胃一个温暖的拥抱,这种感觉很舒服。",
+      "pinyin": "hē rè shuǐ jiù xiàng nǐ zhī qián shuō de nà ge bǐ yù yī yàng xiàng shì gěi zì jǐ de wèi yí gè wēn nuǎn de yōng bào zhè zhǒng gǎn jué hěn shū fú"
+    },
+    {
+      "index": 158,
+      "start_sec": 796.06,
+      "end_sec": 799.06,
+      "text_zh": "这个比喻我记得,一个温暖的拥抱。",
+      "pinyin": "zhè ge bǐ yù wǒ jì de yí gè wēn nuǎn de yōng bào"
+    },
+    {
+      "index": 159,
+      "start_sec": 799.06,
+      "end_sec": 807.06,
+      "text_zh": "你说的很对,当一种习惯能给你带来身体和心理上的双重舒适感时,你就更容易坚持下去。",
+      "pinyin": "nǐ shuō de hěn duì dāng yī zhǒng xí guàn néng gěi nǐ dài lái shēn tǐ hé xīn lǐ shàng de shuāng chóng shū shì gǎn shí nǐ jiù gèng róng yì jiān chí xià qù"
+    },
+    {
+      "index": 160,
+      "start_sec": 807.06,
+      "end_sec": 814.06,
+      "text_zh": "对我来说,我的保温杯就像我的一个老朋友,不论去哪里工作、出差,我都会带着它。",
+      "pinyin": "duì wǒ lái shuō wǒ de bǎo wēn bēi jiù xiàng wǒ de yí gè lǎo péng yǒu bù lùn qù nǎ lǐ gōng zuò chū chāi wǒ dū huì dài zhe tā"
+    },
+    {
+      "index": 161,
+      "start_sec": 814.06,
+      "end_sec": 821.06,
+      "text_zh": "有它在,我随时都能喝到一口温度刚刚好的热水,这会让我觉得很安心。",
+      "pinyin": "yǒu tā zài wǒ suí shí dōu néng hē dào yī kǒu wēn dù gāng gāng hǎo de rè shuǐ zhè huì ràng wǒ jué de hěn ān xīn"
+    },
+    {
+      "index": 162,
+      "start_sec": 821.06,
+      "end_sec": 835.06,
+      "text_zh": "我能理解那种安心的感觉,就像冬天从外面很冷的地方回到家,妈妈递过来一杯热水一样,那种从手心暖到心里的感觉,是喝冰水完全给不了的。",
+      "pinyin": "wǒ néng lǐ jiě nà zhǒng ān xīn de gǎn jué jiù xiàng dōng tiān cóng wài miàn hěn lěng de dì fāng huí dào jiā mā mā dì guò lái yī bēi rè shuǐ yī yàng nà zhǒng cóng shǒu xīn nuǎn dào xīn lǐ de gǎn jué shì hē bīng shuǐ wán quán gěi bù liǎo de"
+    },
+    {
+      "index": 163,
+      "start_sec": 835.06,
+      "end_sec": 845.06,
+      "text_zh": "是的,而且我们说的喝热水,其实不只是只喝白开水,它包含了一个更广的概念,就是喝热的饮品。",
+      "pinyin": "shì de ér qiě wǒ men shuō de hē rè shuǐ qí shí bù zhǐ shì zhǐ hē bái kāi shuǐ tā bāo hán le yí gè gèng guǎng de gài niàn jiù shì hē rè de yǐn pǐn"
+    },
+    {
+      "index": 164,
+      "start_sec": 845.06,
+      "end_sec": 850.06,
+      "text_zh": "比如,中国人自古以来就爱喝茶,茶也是要用热水泡的。",
+      "pinyin": "bǐ rú zhōng guó rén zì gǔ yǐ lái jiù ài hē chá chá yě shì yào yòng rè shuǐ pào de"
+    },
+    {
+      "index": 165,
+      "start_sec": 850.06,
+      "end_sec": 857.06,
+      "text_zh": "冬天我们喜欢煮姜茶来预防感冒,这些都是喝热水文化的一部分。",
+      "pinyin": "dōng tiān wǒ men xǐ huān zhǔ jiāng chá lái yù fáng gǎn mào zhè xiē dōu shì hē rè shuǐ wén huà de yī bù fèn"
+    },
+    {
+      "index": 166,
+      "start_sec": 857.06,
+      "end_sec": 862.06,
+      "text_zh": "对,现在想想,我们生活里真的处处都有热水的影子。",
+      "pinyin": "duì xiàn zài xiǎng xiǎng wǒ men shēng huó lǐ zhēn de chù chù dōu yǒu rè shuǐ de yǐng zi"
+    },
+    {
+      "index": 167,
+      "start_sec": 862.06,
+      "end_sec": 866.61,
+      "text_zh": "去朋友家做客,主人一般会问你,你想喝点什么?",
+      "pinyin": "qù péng yǒu jiā zuò kè zhǔ rén yì bān huì wèn nǐ nǐ xiǎng hē diǎn shén me"
+    },
+    {
+      "index": 168,
+      "start_sec": 866.61,
+      "end_sec": 868.06,
+      "text_zh": "茶还是白开水?",
+      "pinyin": "chá hái shì bái kāi shuǐ"
+    },
+    {
+      "index": 169,
+      "start_sec": 868.06,
+      "end_sec": 872.06,
+      "text_zh": "但无论是哪种,端上来的几乎都是热的。",
+      "pinyin": "dàn wú lùn shì nǎ zhǒng duān shàng lái de jī hū dōu shì rè de"
+    },
+    {
+      "index": 170,
+      "start_sec": 872.06,
+      "end_sec": 878.06,
+      "text_zh": "去餐厅吃饭,很多地方也会主动提供免费的热茶或者热水。",
+      "pinyin": "qù cān tīng chī fàn hěn duō dì fāng yě huì zhǔ dòng tí gōng miǎn fèi de rè chá huò zhě rè shuǐ"
+    },
+    {
+      "index": 171,
+      "start_sec": 879.06,
+      "end_sec": 883.06,
+      "text_zh": "没错,这已经成了一种待客的基本礼仪。",
+      "pinyin": "méi cuò zhè yǐ jīng chéng le yī zhǒng dài kè de jī běn lǐ yí"
+    },
+    {
+      "index": 172,
+      "start_sec": 883.06,
+      "end_sec": 887.06,
+      "text_zh": "为客人提供热水,代表了主人的热情和关心。",
+      "pinyin": "wèi kè rén tí gōng rè shuǐ dài biǎo le zhǔ rén de rè qíng hé guān xīn"
+    },
+    {
+      "index": 173,
+      "start_sec": 887.06,
+      "end_sec": 895.06,
+      "text_zh": "所以,下次有听众朋友来中国旅游或者生活,当餐厅服务员给你一杯热水时,不要觉得奇怪。",
+      "pinyin": "suǒ yǐ xià cì yǒu tīng zhòng péng yǒu lái zhōng guó lǚ yóu huò zhě shēng huó dāng cān tīng fú wù yuán gěi nǐ yī bēi rè shuǐ shí bú yào jué de qí guài"
+    },
+    {
+      "index": 174,
+      "start_sec": 895.06,
+      "end_sec": 898.06,
+      "text_zh": "这正是我们表达欢迎的一种方式。",
+      "pinyin": "zhè zhèng shì wǒ men biǎo dá huān yíng de yī zhǒng fāng shì"
+    },
+    {
+      "index": 175,
+      "start_sec": 898.06,
+      "end_sec": 904.06,
+      "text_zh": "嗯,通过今天这个话题,我真的对喝热水这件事有了全新的认识。",
+      "pinyin": "ń tōng guò jīn tiān zhè ge huà tí wǒ zhēn de duì hē rè shuǐ zhè jiàn shì yǒu le quán xīn de rèn shí"
+    },
+    {
+      "index": 176,
+      "start_sec": 904.06,
+      "end_sec": 915.06,
+      "text_zh": "它不只是一个简单的生活习惯,背后有历史,有科学,有文化,还有中国人之间那种含蓄但温暖的关心。",
+      "pinyin": "tā bù zhǐ shì yí gè jiǎn dān de shēng huó xí guàn bèi hòu yǒu lì shǐ yǒu kē xué yǒu wén huà hái yǒu zhōng guó rén zhī jiān nà zhǒng hán xù dàn wēn nuǎn de guān xīn"
+    },
+    {
+      "index": 177,
+      "start_sec": 915.06,
+      "end_sec": 921.06,
+      "text_zh": "总结得很好,一个简单的习惯,背后是一个复杂的文化世界。",
+      "pinyin": "zǒng jié dé hěn hǎo yí gè jiǎn dān de xí guàn bèi hòu shì yí gè fù zá de wén huà shì jiè"
+    },
+    {
+      "index": 178,
+      "start_sec": 921.06,
+      "end_sec": 924.06,
+      "text_zh": "这也是学习一门语言最有魅力的地方。",
+      "pinyin": "zhè yě shì xué xí yī mén yǔ yán zuì yǒu mèi lì de dì fāng"
+    },
+    {
+      "index": 179,
+      "start_sec": 924.06,
+      "end_sec": 929.06,
+      "text_zh": "你不仅在学怎么说,还在学一种新的思维方式和生活方式。",
+      "pinyin": "nǐ bù jǐn zài xué zěn me shuō hái zài xué yī zhǒng xīn de sī wéi fāng shì hé shēng huó fāng shì"
+    },
+    {
+      "index": 180,
+      "start_sec": 930.06,
+      "end_sec": 938.06,
+      "text_zh": "是的,那么聊了这么多,我们来复习一下今天对话中出现的一些比较重要或者有趣的词语吧。",
+      "pinyin": "shì de nà me liáo le zhè me duō wǒ men lái fù xí yī xià jīn tiān duì huà zhōng chū xiàn de yī xiē bǐ jiào zhòng yào huò zhě yǒu qù de cí yǔ ba"
+    },
+    {
+      "index": 181,
+      "start_sec": 938.06,
+      "end_sec": 939.06,
+      "text_zh": "好主意。",
+      "pinyin": "hǎo zhǔ yì"
+    },
+    {
+      "index": 182,
+      "start_sec": 939.06,
+      "end_sec": 948.06,
+      "text_zh": "好的,王宇,今天我们聊了很多关于喝热水的话题,其中我们提到了一个很有趣的成语,叫包治百病。",
+      "pinyin": "hǎo de wáng yǔ jīn tiān wǒ men liáo le hěn duō guān yú hē rè shuǐ de huà tí qí zhōng wǒ men tí dào le yí gè hěn yǒu qù de chéng yǔ jiào bāo zhì bǎi bìng"
+    },
+    {
+      "index": 183,
+      "start_sec": 948.06,
+      "end_sec": 953.06,
+      "text_zh": "你能用简单一感的话给我们的听众朋友解释一下它是什么意思吗?",
+      "pinyin": "nǐ néng yòng jiǎn dān yī gǎn de huà gěi wǒ men de tīng zhòng péng yǒu jiě shì yī xià tā shì shén me yì si ma"
+    },
+    {
+      "index": 184,
+      "start_sec": 953.06,
+      "end_sec": 954.06,
+      "text_zh": "当然可以。",
+      "pinyin": "dāng rán kě yǐ"
+    },
+    {
+      "index": 185,
+      "start_sec": 954.06,
+      "end_sec": 962.06,
+      "text_zh": "包治百病这个词,字面上的意思是可以治疗一百种病,也就是能治好所有的病。",
+      "pinyin": "bāo zhì bǎi bìng zhè ge cí zì miàn shàng de yì si shì kě yǐ zhì liáo yì bǎi zhǒng bìng yě jiù shì néng zhì hǎo suǒ yǒu de bìng"
+    },
+    {
+      "index": 186,
+      "start_sec": 962.06,
+      "end_sec": 967.06,
+      "text_zh": "但现在我们用的时候常常是带有一点开玩笑的语气。",
+      "pinyin": "dàn xiàn zài wǒ men yòng de shí hòu cháng cháng shì dài yǒu yì diǎn kāi wán xiào de yǔ qì"
+    },
+    {
+      "index": 187,
+      "start_sec": 967.06,
+      "end_sec": 974.06,
+      "text_zh": "比如我们说,热水包治百病,意思不是说热水真的像药一样能治好所有病,",
+      "pinyin": "bǐ rú wǒ men shuō rè shuǐ bāo zhì bǎi bìng yì si bú shì shuō rè shuǐ zhēn de xiàng yào yī yàng néng zhì hǎo suǒ yǒu bìng"
+    },
+    {
+      "index": 188,
+      "start_sec": 974.06,
+      "end_sec": 980.06,
+      "text_zh": "而是在开玩笑说好像所有问题都能用多喝热水来回答。",
+      "pinyin": "ér shì zài kāi wán xiào shuō hǎo xiàng suǒ yǒu wèn tí dōu néng yòng duō hē rè shuǐ lái huí dá"
+    },
+    {
+      "index": 189,
+      "start_sec": 981.06,
+      "end_sec": 984.06,
+      "text_zh": "它形容一个方法好像是万能的。",
+      "pinyin": "tā xíng róng yí gè fāng fǎ hǎo xiàng shì wàn néng de"
+    },
+    {
+      "index": 190,
+      "start_sec": 984.06,
+      "end_sec": 986.06,
+      "text_zh": "这个解释很清楚。",
+      "pinyin": "zhè ge jiě shì hěn qīng chǔ"
+    },
+    {
+      "index": 191,
+      "start_sec": 986.06,
+      "end_sec": 991.06,
+      "text_zh": "第二个词是我们今天谈到的一个核心概念,养生。",
+      "pinyin": "dì èr gè cí shì wǒ men jīn tiān tán dào de yí gè hé xīn gài niàn yǎng shēng"
+    },
+    {
+      "index": 192,
+      "start_sec": 991.06,
+      "end_sec": 995.06,
+      "text_zh": "这个词对很多外国朋友来说可能有点陌生。",
+      "pinyin": "zhè ge cí duì hěn duō wài guó péng yǒu lái shuō kě néng yǒu diǎn mò shēng"
+    },
+    {
+      "index": 193,
+      "start_sec": 995.06,
+      "end_sec": 1001.06,
+      "text_zh": "嗯,养生这个词,我们可以把它理解为照顾和保养自己的身体。",
+      "pinyin": "ń yǎng shēng zhè ge cí wǒ men kě yǐ bǎ tā lǐ jiě wèi zhào gù hé bǎo yǎng zì jǐ de shēn tǐ"
+    },
+    {
+      "index": 194,
+      "start_sec": 1001.06,
+      "end_sec": 1004.06,
+      "text_zh": "它不是指你生病了才去做的事情,",
+      "pinyin": "tā bú shì zhǐ nǐ shēng bìng le cái qù zuò de shì qíng"
+    },
+    {
+      "index": 195,
+      "start_sec": 1004.06,
+      "end_sec": 1011.06,
+      "text_zh": "而是指你在平时每一天都通过好的生活习惯来让自己的身体保持健康。",
+      "pinyin": "ér shì zhǐ nǐ zài píng shí měi yī tiān dōu tōng guò hǎo de shēng huó xí guàn lái ràng zì jǐ de shēn tǐ bǎo chí jiàn kāng"
+    },
+    {
+      "index": 196,
+      "start_sec": 1011.06,
+      "end_sec": 1021.06,
+      "text_zh": "比如,早睡早起,吃健康的食物,经常运动,还有我们今天说的多喝热水,这些都是养生的一部分。",
+      "pinyin": "bǐ rú zǎo shuì zǎo qǐ chī jiàn kāng de shí wù jīng cháng yùn dòng hái yǒu wǒ men jīn tiān shuō de duō hē rè shuǐ zhè xiē dōu shì yǎng shēng de yī bù fèn"
+    },
+    {
+      "index": 197,
+      "start_sec": 1021.06,
+      "end_sec": 1026.06,
+      "text_zh": "它的目标是预防生命,让身体一直处在一个很好的状态。",
+      "pinyin": "tā de mù biāo shì yù fáng shēng mìng ràng shēn tǐ yì zhí chù zài yí gè hěn hǎo de zhuàng tài"
+    },
+    {
+      "index": 198,
+      "start_sec": 1027.06,
+      "end_sec": 1028.06,
+      "text_zh": "非常好。",
+      "pinyin": "fēi cháng hǎo"
+    },
+    {
+      "index": 199,
+      "start_sec": 1028.06,
+      "end_sec": 1034.06,
+      "text_zh": "那么第三个,我们提到了一个我杯子里经常会有的东西,枸杞。",
+      "pinyin": "nà me dì sān gè wǒ men tí dào le yí gè wǒ bēi zi lǐ jīng cháng huì yǒu de dōng xī gǒu qǐ"
+    },
+    {
+      "index": 200,
+      "start_sec": 1034.06,
+      "end_sec": 1036.06,
+      "text_zh": "啊,枸杞,这个很简单。",
+      "pinyin": "a gǒu qǐ zhè ge hěn jiǎn dān"
+    },
+    {
+      "index": 201,
+      "start_sec": 1036.06,
+      "end_sec": 1040.06,
+      "text_zh": "它是一种红色的小小的水果干。",
+      "pinyin": "tā shì yī zhǒng hóng sè de xiǎo xiǎo de shuǐ guǒ gàn"
+    },
+    {
+      "index": 202,
+      "start_sec": 1040.06,
+      "end_sec": 1045.06,
+      "text_zh": "在中国,我们常常用它来泡水喝,或者放在汤里。",
+      "pinyin": "zài zhōng guó wǒ men cháng cháng yòng tā lái pào shuǐ hē huò zhě fàng zài tāng lǐ"
+    },
+    {
+      "index": 203,
+      "start_sec": 1045.06,
+      "end_sec": 1050.06,
+      "text_zh": "很多人相信吃枸杞对眼睛好,对身体也有很多好处。",
+      "pinyin": "hěn duō rén xiāng xìn chī gǒu qǐ duì yǎn jīng hǎo duì shēn tǐ yě yǒu hěn duō hǎo chù"
+    },
+    {
+      "index": 204,
+      "start_sec": 1050.06,
+      "end_sec": 1053.06,
+      "text_zh": "所以它是一种很受欢迎的养生食品。",
+      "pinyin": "suǒ yǐ tā shì yī zhǒng hěn shòu huān yíng de yǎng shēng shí pǐn"
+    },
+    {
+      "index": 205,
+      "start_sec": 1053.06,
+      "end_sec": 1057.06,
+      "text_zh": "对,大家在中国的超市里很容易就能买到。",
+      "pinyin": "duì dà jiā zài zhōng guó de chāo shì lǐ hěn róng yì jiù néng mǎi dào"
+    },
+    {
+      "index": 206,
+      "start_sec": 1057.06,
+      "end_sec": 1062.06,
+      "text_zh": "最后一个,也是和中医观念关系最密切的一个词,寒气。",
+      "pinyin": "zuì hòu yí gè yě shì hé zhōng yī guān niàn guān xì zuì mì qiè de yí gè cí hán qì"
+    },
+    {
+      "index": 207,
+      "start_sec": 1062.06,
+      "end_sec": 1064.06,
+      "text_zh": "这个词怎么理解呢?",
+      "pinyin": "zhè ge cí zěn me lǐ jiě ne"
+    },
+    {
+      "index": 208,
+      "start_sec": 1064.06,
+      "end_sec": 1069.06,
+      "text_zh": "寒气,我们可以把它想象成一种冷的能量。",
+      "pinyin": "hán qì wǒ men kě yǐ bǎ tā xiǎng xiàng chéng yī zhǒng lěng de néng liàng"
+    },
+    {
+      "index": 209,
+      "start_sec": 1069.06,
+      "end_sec": 1078.06,
+      "text_zh": "在中医看来,如果身体里的寒气太多了,人就容易生病,会觉得冷,觉得累,消化也变差。",
+      "pinyin": "zài zhōng yī kàn lái rú guǒ shēn tǐ lǐ de hán qì tài duō le rén jiù róng yì shēng bìng huì jué de lěng jué de lèi xiāo huà yě biàn chà"
+    },
+    {
+      "index": 210,
+      "start_sec": 1078.06,
+      "end_sec": 1083.06,
+      "text_zh": "喝冰水,吃太多的冷的食物,就会增加身体里的寒气。",
+      "pinyin": "hē bīng shuǐ chī tài duō de lěng de shí wù jiù huì zēng jiā shēn tǐ lǐ de hán qì"
+    },
+    {
+      "index": 211,
+      "start_sec": 1083.06,
+      "end_sec": 1093.06,
+      "text_zh": "所以,中国人喝热水一个很重要的原因,就是为了减少和赶走身体里的寒气,让身体保持温暖和平衡。",
+      "pinyin": "suǒ yǐ zhōng guó rén hē rè shuǐ yí gè hěn zhòng yào de yuán yīn jiù shì wèi le jiǎn shǎo hé gǎn zǒu shēn tǐ lǐ de hán qì ràng shēn tǐ bǎo chí wēn nuǎn huo píng héng"
+    },
+    {
+      "index": 212,
+      "start_sec": 1093.06,
+      "end_sec": 1093.95,
+      "text_zh": "太棒了!",
+      "pinyin": "tài bàng le"
+    },
+    {
+      "index": 213,
+      "start_sec": 1093.95,
+      "end_sec": 1097.06,
+      "text_zh": "王雨的解释总是这么简单易懂。",
+      "pinyin": "wáng yǔ de jiě shì zǒng shì zhè me jiǎn dān yì dǒng"
+    },
+    {
+      "index": 214,
+      "start_sec": 1097.06,
+      "end_sec": 1102.06,
+      "text_zh": "希望这几个词的解释能帮助大家更好的理解我们今天聊的内容。",
+      "pinyin": "xī wàng zhè jǐ gè cí de jiě shì néng bāng zhù dà jiā gèng hǎo de lǐ jiě wǒ men jīn tiān liáo de nèi róng"
+    },
+    {
+      "index": 215,
+      "start_sec": 1102.06,
+      "end_sec": 1103.06,
+      "text_zh": "希望如此。",
+      "pinyin": "xī wàng rú cǐ"
+    },
+    {
+      "index": 216,
+      "start_sec": 1104.06,
+      "end_sec": 1108.06,
+      "text_zh": "好的,我们今天的节目也差不多要结束了,时间过得真快。",
+      "pinyin": "hǎo de wǒ men jīn tiān de jié mù yě chà bu duō yào jié shù le shí jiān guò dé zhēn kuài"
+    },
+    {
+      "index": 217,
+      "start_sec": 1108.06,
+      "end_sec": 1113.06,
+      "text_zh": "是啊,感觉一杯热水还没喝完,节目就结束了。",
+      "pinyin": "shì a gǎn jué yī bēi rè shuǐ hái méi hē wán jié mù jiù jié shù le"
+    },
+    {
+      "index": 218,
+      "start_sec": 1113.06,
+      "end_sec": 1128.06,
+      "text_zh": "今天我们从一句简单的多喝热水开始,聊了它背后的文化含义,也探讨了中国人喜欢喝热水的历史和中医原因,以及热水在我们日常生活中的各种样子。",
+      "pinyin": "jīn tiān wǒ men cóng yī jù jiǎn dān de duō hē rè shuǐ kāi shǐ liáo le tā bèi hòu de wén huà hán yì yě tàn tǎo le zhōng guó rén xǐ huān hē rè shuǐ de lì shǐ hé zhōng yī yuán yīn yǐ jí rè shuǐ zài wǒ men rì cháng shēng huó zhōng de gè zhǒng yàng zi"
+    },
+    {
+      "index": 219,
+      "start_sec": 1128.06,
+      "end_sec": 1134.06,
+      "text_zh": "希望通过今天的对话,大家对这个有趣的文化现象有更深的了解。",
+      "pinyin": "xī wàng tōng guò jīn tiān de duì huà dà jiā duì zhè ge yǒu qù de wén huà xiàn xiàng yǒu gēng shēn de liǎo jiě"
+    },
+    {
+      "index": 220,
+      "start_sec": 1134.06,
+      "end_sec": 1142.06,
+      "text_zh": "嗯,希望大家下次听到中国朋友对你说,多喝热水的时候,能感受到那份温暖的关心。",
+      "pinyin": "ń xī wàng dà jiā xià cì tīng dào zhōng guó péng yǒu duì nǐ shuō duō hē rè shuǐ de shí hòu néng gǎn shòu dào nà fèn wēn nuǎn de guān xīn"
+    },
+    {
+      "index": 221,
+      "start_sec": 1142.06,
+      "end_sec": 1147.06,
+      "text_zh": "如果你想复习今天我们聊天的所有内容,可以去我们的博客看看。",
+      "pinyin": "rú guǒ nǐ xiǎng fù xí jīn tiān wǒ men liáo tiān de suǒ yǒu nèi róng kě yǐ qù wǒ men de bó kè kàn kàn"
+    },
+    {
+      "index": 222,
+      "start_sec": 1147.06,
+      "end_sec": 1152.06,
+      "text_zh": "在网上搜索我们的频道名字,每天中文就能找到。",
+      "pinyin": "zài wǎng shàng sōu suǒ wǒ men de pín dào míng zì měi tiān zhōng wén jiù néng zhǎo dào"
+    },
+    {
+      "index": 223,
+      "start_sec": 1152.06,
+      "end_sec": 1155.06,
+      "text_zh": "上面有我们每一期节目的完整文本。",
+      "pinyin": "shàng miàn yǒu wǒ men měi yī qī jié mù de wán zhěng wén běn"
+    },
+    {
+      "index": 224,
+      "start_sec": 1155.06,
+      "end_sec": 1161.06,
+      "text_zh": "没错,也希望你能够给我们点个赞,分享给你的朋友,也别忘了订阅我们的频道。",
+      "pinyin": "méi cuò yě xī wàng nǐ néng gòu gěi wǒ men diǎn gè zàn fēn xiǎng gěi nǐ de péng yǒu yě bié wàng le dìng yuè wǒ men de pín dào"
+    },
+    {
+      "index": 225,
+      "start_sec": 1161.06,
+      "end_sec": 1165.06,
+      "text_zh": "你们的支持是我们继续做下去的最大动力。",
+      "pinyin": "nǐ men de zhī chí shì wǒ men jì xù zuò xià qù de zuì dà dòng lì"
+    },
+    {
+      "index": 226,
+      "start_sec": 1165.06,
+      "end_sec": 1170.06,
+      "text_zh": "没错,最后也想问问正在收听我们节目的朋友们一个问题。",
+      "pinyin": "méi cuò zuì hòu yě xiǎng wèn wèn zhèng zài shōu tīng wǒ men jié mù de péng yǒu men yí gè wèn tí"
+    },
+    {
+      "index": 227,
+      "start_sec": 1170.06,
+      "end_sec": 1175.06,
+      "text_zh": "在你自己的国家,人们更喜欢喝热水还是冰水呢?",
+      "pinyin": "zài nǐ zì jǐ de guó jiā rén men gèng xǐ huān hē rè shuǐ hái shì bīng shuǐ ne"
+    },
+    {
+      "index": 228,
+      "start_sec": 1175.06,
+      "end_sec": 1177.12,
+      "text_zh": "你现在更喜欢喝哪一种?",
+      "pinyin": "nǐ xiàn zài gèng xǐ huān hē nǎ yī zhǒng"
+    },
+    {
+      "index": 229,
+      "start_sec": 1177.12,
+      "end_sec": 1178.06,
+      "text_zh": "为什么呢?",
+      "pinyin": "wèi shén me ne"
+    },
+    {
+      "index": 230,
+      "start_sec": 1178.06,
+      "end_sec": 1184.06,
+      "text_zh": "欢迎大家在下方的评论区给我们留言,分享你的故事和看法。",
+      "pinyin": "huān yíng dà jiā zài xià fāng de píng lùn qū gěi wǒ men liú yán fēn xiǎng nǐ de gù shì hé kàn fǎ"
+    },
+    {
+      "index": 231,
+      "start_sec": 1184.06,
+      "end_sec": 1186.06,
+      "text_zh": "期待大家的留言。",
+      "pinyin": "qī dài dà jiā de liú yán"
+    },
+    {
+      "index": 232,
+      "start_sec": 1186.06,
+      "end_sec": 1190.06,
+      "text_zh": "好了,这期的每天中文就到这里,感谢大家的收听。",
+      "pinyin": "hǎo le zhè qī de měi tiān zhōng wén jiù dào zhè lǐ gǎn xiè dà jiā de shōu tīng"
+    },
+    {
+      "index": 233,
+      "start_sec": 1190.06,
+      "end_sec": 1192.06,
+      "text_zh": "感谢大家,我们下期再见。",
+      "pinyin": "gǎn xiè dà jiā wǒ men xià qī zài jiàn"
+    },
+    {
+      "index": 234,
+      "start_sec": 1192.06,
+      "end_sec": 1193.06,
+      "text_zh": "再见。",
+      "pinyin": "zài jiàn"
+    }
+  ],
+  "transcribed_at": "2026-07-14T20:41:30.896764+00:00"
+}
