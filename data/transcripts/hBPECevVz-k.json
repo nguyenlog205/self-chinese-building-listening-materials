@@ -1,5 +1,6 @@
 {
-  "video_id": "hBPECevVz-k",
+  "content_id": "hBPECevVz-k",
+  "source_type": "youtube",
   "source_audio_path": "data/audio_cache/hBPECevVz-k.wav",
   "language": "zh",
   "segments": [
@@ -1649,5 +1650,6 @@
       "pinyin": "zài jiàn"
     }
   ],
-  "transcribed_at": "2026-07-14T20:41:30.896764+00:00"
+  "transcribed_at": "2026-07-14T20:41:30.896764+00:00",
+  "source_url": "https://www.youtube.com/watch?v=hBPECevVz-k"
 }

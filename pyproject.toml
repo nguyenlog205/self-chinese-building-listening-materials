@@ -10,6 +10,9 @@ dependencies = [
     "pypinyin",
     "nvidia-cublas-cu12",
     "nvidia-cudnn-cu12",
+    "edge-tts",
+    "pydub",
+    "audioop-lts; python_version >= '3.13'",
 ]
 
 [tool.setuptools.packages.find]

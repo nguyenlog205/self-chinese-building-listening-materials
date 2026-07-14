@@ -9,6 +9,7 @@ from pydantic import BaseModel, ValidationError
 
 DEFAULT_CONFIG_PATH = "configs/system.yml"
 DEFAULT_URL_LIST_PATH = "configs/url.yml"
+DEFAULT_SCRIPT_LIST_PATH = "configs/scripts.yml"
 
 
 class ProjectConfig(BaseModel):
@@ -20,6 +21,7 @@ class PathsConfig(BaseModel):
     metadata_dir: str
     audio_cache_dir: str
     transcript_dir: str
+    outcome_dir: str
     log_file: str
 
 
@@ -42,9 +44,20 @@ class Audio2ScriptConfig(BaseModel):
     overwrite_existing: bool
 
 
+class Script2AudioConfig(BaseModel):
+    enabled: bool
+    voice: str
+    rate: str
+    pause_between_sentences_sec: float
+    language: str
+    pinyin_style: str
+    overwrite_existing: bool
+
+
 class ModulesConfig(BaseModel):
     url2metadata: Url2MetadataConfig
     audio2script: Audio2ScriptConfig
+    script2audio: Script2AudioConfig
 
 
 class LoggingConfig(BaseModel):
@@ -60,6 +73,10 @@ class SystemConfig(BaseModel):
 
 class UrlListConfig(BaseModel):
     urls: list[str]
+
+
+class ScriptListConfig(BaseModel):
+    scripts: list[str]
 
 
 class ConfigLoadError(Exception):
@@ -96,3 +113,19 @@ def load_urls(path: str = DEFAULT_URL_LIST_PATH) -> list[str]:
         return UrlListConfig.model_validate(raw).urls
     except ValidationError as e:
         raise ConfigLoadError(f"Invalid url list schema in {url_path}: {e}") from e
+
+
+def load_scripts(path: str = DEFAULT_SCRIPT_LIST_PATH) -> list[str]:
+    script_path = Path(path)
+    if not script_path.is_file():
+        raise ConfigLoadError(f"Script list file not found: {script_path}")
+
+    try:
+        raw = yaml.safe_load(script_path.read_text())
+    except yaml.YAMLError as e:
+        raise ConfigLoadError(f"Failed to parse YAML script list at {script_path}") from e
+
+    try:
+        return ScriptListConfig.model_validate(raw).scripts
+    except ValidationError as e:
+        raise ConfigLoadError(f"Invalid script list schema in {script_path}: {e}") from e

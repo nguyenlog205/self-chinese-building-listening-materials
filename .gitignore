@@ -5,3 +5,6 @@ __pycache__/
 data/metadata/*.json
 data/audio_cache/*.wav
 logs/*.log
+
+data/
+outcome/

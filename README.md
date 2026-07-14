@@ -1,191 +1,102 @@
 # generateContents
 
-Content pipeline sinh học liệu nghe (listening) tiếng Trung từ danh sách
-video YouTube: lấy metadata → tải audio → transcribe thành script tiếng
-Trung có timestamp + pinyin, ngắt theo câu. Chạy như một pipeline/batch
-job, output là file JSON/WAV trong `data/` — **không có API trong repo
-này**, việc phục vụ dữ liệu này qua HTTP thuộc về một repo khác.
+`generateContents` produces Chinese listening learning materials from
+two sources: YouTube videos (transcribed with Whisper) and pre-written
+scripts (synthesized with a TTS model). Both produce the same
+sentence-segmented, timestamped, pinyin-annotated JSON output under
+`data/transcripts/`.
 
-## Kiến trúc
+This project is a batch pipeline, not a web service — there is no API or
+web layer here. For architecture, configuration reference, the output
+JSON schema, and coding conventions, see [docs/](docs/).
 
-Project theo layered architecture, tách biệt business logic khỏi cách nó
-được gọi:
-
-```
-configs/
-  system.yml                        # config chung, mọi module đọc từ đây
-  url.yml                           # danh sách URL sẽ chạy qua pipeline
-
-services/generateContents/          # business logic — package chính
-  common/
-    config.py                       # load_config(), load_urls() (pydantic, fail-fast)
-    logger.py                       # get_logger(name) -> ghi log ra stdout + file
-  modules/
-    url2metadata/
-      domain/
-        schema.py                   # VideoMetadata
-        exceptions.py               # MetadataExtractionError, AudioDownloadError
-      adapters/
-        ytdlp_client.py             # nơi DUY NHẤT import yt-dlp
-        cache_store.py              # đọc/ghi JSON cache, path helpers
-      service.py                    # extract_metadata(), download_audio(), run()
-      run.py                        # CLI mỏng cho 1 URL, gọi service.run()
-    audio2script/
-      domain/
-        schema.py                   # ScriptSegment, TranscriptResult
-        exceptions.py               # TranscriptionError
-      adapters/
-        whisper_client.py           # nơi DUY NHẤT import faster-whisper
-        pinyin_converter.py         # nơi DUY NHẤT import pypinyin
-        cache_store.py              # đọc/ghi JSON cache transcript
-      service.py                    # transcribe(), run() (gọi cả url2metadata.service)
-      run.py                        # CLI mỏng cho 1 URL, gọi service.run()
-  pipeline.py                       # CLI batch: chạy tuần tự mọi URL trong url.yml
-
-data/
-  metadata/{video_id}.json           # output của url2metadata
-  audio_cache/{video_id}.wav          # output của url2metadata
-  transcripts/{video_id}.json          # output của audio2script — học liệu cuối cùng
-
-logs/
-  system.log                          # log file dùng chung
-```
-
-**Quy tắc cốt lõi:** `service.py` là nơi duy nhất chứa business logic của
-mỗi module — `run.py` (CLI 1 URL) và `pipeline.py` (CLI batch) đều chỉ gọi
-vào `service.py`, không viết logic riêng, không import `adapters/` trực
-tiếp. Module sau gọi lại `service.py` của module trước thay vì lặp code
-(`audio2script.service.run()` gọi `url2metadata.service.run()` để lấy audio
-trước khi transcribe).
-
-## Cài đặt
+## Installation
 
 ```bash
 ./scripts/setup_venv.sh
 source .venv/bin/activate
 ```
 
-Script này tạo `.venv`, cài project, và vá `LD_LIBRARY_PATH` trong
-`.venv/bin/activate` để faster-whisper tìm thấy `libcublas`/`libcudnn` (cài
-qua pip wheel `nvidia-cublas-cu12` / `nvidia-cudnn-cu12`, không cần cài CUDA
-toolkit hệ thống). **Luôn `source .venv/bin/activate` trước khi chạy** —
-nếu không, faster-whisper sẽ báo lỗi `Library libcublas.so.12 is not
-found`.
+This creates `.venv`, installs the project, and patches
+`LD_LIBRARY_PATH` in `.venv/bin/activate` so that faster-whisper can find
+`libcublas` and `libcudnn` (installed via the `nvidia-cublas-cu12` and
+`nvidia-cudnn-cu12` pip wheels, without requiring a system-wide CUDA
+toolkit installation). Always run `source .venv/bin/activate` before
+using the pipeline; otherwise faster-whisper will fail with
+`Library libcublas.so.12 is not found`.
 
-Yêu cầu khác:
-- `ffmpeg` có sẵn trên máy (convert audio sang WAV).
-- GPU NVIDIA (mặc định `device: cuda` trong config). Không có GPU thì đổi
-  `device: cpu` và `compute_type: int8` trong `configs/system.yml`.
+Additional requirements:
+- `ffmpeg` must be available on the machine (used to convert audio to
+  WAV, and by `pydub` to decode/concatenate the MP3 clips edge-tts
+  produces).
+- An NVIDIA GPU is expected by default (`device: cuda` in
+  `configs/system.yml`). On a machine without a GPU, set `device: cpu`
+  and `compute_type: int8` instead.
+- `script2audio` calls the edge-tts service over the network at
+  synthesis time; it does not run offline.
 
-## Cấu hình
+## Configuring what to process
 
-### `configs/system.yml`
+- `configs/url.yml` — list of YouTube URLs to transcribe. See
+  [docs/configuration.md](docs/configuration.md#configsurlyml).
+- `configs/scripts.yml` — list of pre-written script files (dropped
+  under `data/scripts/`) to synthesize. See
+  [docs/configuration.md](docs/configuration.md#configsscriptsyml).
+- `configs/system.yml` — model/device/voice settings for every module.
+  See [docs/configuration.md](docs/configuration.md#configssystemyml).
 
-```yaml
-paths:
-  metadata_dir: data/metadata
-  audio_cache_dir: data/audio_cache
-  transcript_dir: data/transcripts
-  log_file: logs/system.log
+## Running the pipeline
 
-modules:
-  url2metadata:
-    enabled: true
-    download_audio: true       # false thì chỉ lấy metadata, không tải audio
-    audio_format: wav
-    sample_rate: 16000
-    channels: 1
-    overwrite_existing: false  # true thì luôn fetch/download lại, bỏ qua cache
-
-  audio2script:
-    enabled: true
-    model_size: medium         # tiny | base | small | medium | large-v3 — model càng lớn càng chính xác, càng chậm
-    device: cuda                # cuda | cpu
-    compute_type: float16       # float16 (GPU) | int8 (CPU)
-    language: zh
-    pinyin_style: tone_marks    # tone_marks (nǐ hǎo) | numeric (ni3 hao3)
-    overwrite_existing: false
-
-logging:
-  level: INFO
-```
-
-Mọi path/setting đều đọc từ file này qua `SystemConfig` — không hardcode ở
-nơi khác.
-
-### `configs/url.yml`
-
-Danh sách URL sẽ chạy qua pipeline, theo thứ tự liệt kê:
-
-```yaml
-urls:
-  - https://www.youtube.com/watch?v=hBPECevVz-k
-  - https://www.youtube.com/watch?v=xxxxxxxxxxx
-```
-
-## Chạy
-
-### Batch — toàn bộ danh sách trong `configs/url.yml`
+### Batch: everything in `configs/url.yml` and `configs/scripts.yml`
 
 ```bash
 python -m generateContents.pipeline
 ```
 
-Chạy tuần tự từng URL, mỗi URL đi qua đủ 3 bước (metadata → audio →
-transcript). URL nào lỗi (video private, transcribe fail...) sẽ được ghi
-log và bỏ qua — không làm dừng cả batch. Cuối cùng in ra bảng tổng kết
-`N succeeded, M failed` và exit code `1` nếu có lỗi.
+Runs every URL through metadata -> audio -> transcript, then every
+script through script2audio. A failing item (a private video, a
+transcription failure, a TTS error, and so on) is logged and skipped; it
+does not stop the rest of its batch. At the end, a combined summary of
+the form `N succeeded, M failed` is printed, and the process exits with
+status code `1` if anything failed.
 
-### Một URL đơn lẻ
+### A single URL
 
 ```bash
-# Chỉ lấy metadata + audio
+# Metadata and audio only
 python -m generateContents.modules.url2metadata.run "<youtube_url>"
 
-# Lấy metadata + audio + transcript (script tiếng Trung + pinyin + timestamp)
+# Metadata, audio, and transcript (Chinese script with pinyin and timestamps)
 python -m generateContents.modules.audio2script.run "<youtube_url>"
 ```
 
-Cả 2 lệnh đều tôn trọng cache: nếu `video_id` đã có cache và
-`overwrite_existing: false`, không fetch/download/transcribe lại.
+### A single script
 
-### Định dạng học liệu — `data/transcripts/{video_id}.json`
-
-```json
-{
-  "video_id": "hBPECevVz-k",
-  "source_audio_path": "data/audio_cache/hBPECevVz-k.wav",
-  "language": "zh",
-  "segments": [
-    {
-      "index": 0,
-      "start_sec": 6.06,
-      "end_sec": 11.06,
-      "text_zh": "大家好,欢迎收听新一期的《每天中门》,我是李明。",
-      "pinyin": "dà jiā hǎo huān yíng shōu tīng xīn yī qī de měi tiān zhōng mén wǒ shì lǐ míng"
-    }
-  ],
-  "transcribed_at": "2026-07-14T20:41:30Z"
-}
+```bash
+python -m generateContents.modules.script2audio.run "data/scripts/example.txt"
 ```
 
-Mỗi `segment` là **một câu** (whisper transcribe theo đoạn tạm dừng, sau đó
-`service.py` tách tiếp theo dấu câu tiếng Trung `。！？`, chia lại
-timestamp theo tỉ lệ số ký tự trong đoạn gốc).
+All commands respect the cache: if a `content_id` already has a cached
+transcript and `overwrite_existing` is `false` in `configs/system.yml`,
+the cached result is returned instead of fetching, downloading,
+transcribing, or synthesizing again.
 
-## Quy ước lỗi & log
+## Output
 
-- Mỗi hàm public log `INFO` khi bắt đầu/thành công, `ERROR` khi thất bại.
-- Không có `except:` trần — luôn bắt exception cụ thể, wrap lại thành
-  exception riêng của module (`raise XxxError(...) from e`) để giữ traceback
-  gốc và không để lộ exception của thư viện ngoài (yt-dlp, faster-whisper)
-  ra ngoài module.
+Learning material is written to `data/transcripts/{content_id}.json`.
+See [docs/data-format.md](docs/data-format.md) for the full schema.
 
-## Ngoài phạm vi hiện tại
+### Packaging a dataset
 
-- Không có API/web layer trong repo này — sẽ nằm ở repo khác, đọc trực
-  tiếp từ `data/` (hoặc một storage chung sau này).
-- Chưa có: export sang định dạng học tập (Anki, SRT...), xử lý song song
-  nhiều video, hoặc theo dõi tiến độ giữa các lần chạy batch (mỗi lần
-  `pipeline.py` chạy lại toàn bộ danh sách, chỉ URL nào chưa cache mới thực
-  sự tốn thời gian).
+Once you have cached transcripts (from either source), package them into
+a flat CSV + per-sentence audio clips under `outcome/`:
+
+```bash
+python -m generateContents.export
+```
+
+This is a separate, repeatable step — it only reads what's already in
+`data/`, so it's safe to re-run any time to rebuild `outcome/` after
+adding more videos or scripts. See
+[docs/data-format.md](docs/data-format.md#outcome-dataset) for the CSV
+schema.
