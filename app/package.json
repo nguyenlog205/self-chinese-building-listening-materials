@@ -4,9 +4,9 @@
   "private": true,
   "description": "Standalone Chinese listening practice desktop app",
   "scripts": {
-    "postinstall": "npm install --prefix electron",
-    "dev": "npm run start --prefix electron",
-    "build:linux": "npm run build:linux --prefix electron",
-    "build:win": "npm run build:win --prefix electron"
+    "postinstall": "cd electron && npm install",
+    "dev": "cd electron && npm run start",
+    "build:linux": "cd electron && npm run build:linux",
+    "build:win": "cd electron && npm run build:win"
   }
 }

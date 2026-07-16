@@ -38,10 +38,12 @@ jobs:
         run: npm run build:exe
 
       - name: Install Electron deps
-        run: npm install --prefix electron
+        working-directory: app_win/electron
+        run: npm install
 
       - name: Build NSIS installer
-        run: npm run build:win --prefix electron
+        working-directory: app_win/electron
+        run: npm run build:win
 
       - uses: actions/upload-artifact@v4
         with:
