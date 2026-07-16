@@ -12,6 +12,8 @@ dependencies = [
     "nvidia-cudnn-cu12",
     "edge-tts",
     "pydub",
+    "jieba",
+    "flask",
     "audioop-lts; python_version >= '3.13'",
 ]
 

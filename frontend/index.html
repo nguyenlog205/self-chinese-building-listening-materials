@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="zh">
+<head>
+  <meta charset="utf-8" />
+  <title>听写练习 · Dictation</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>听写练习 <span class="subtitle">Nghe chép chính tả</span></h1>
+    <select id="content-select"></select>
+  </header>
+
+  <main>
+    <div id="empty-state" class="empty-state">
+      Chọn một bài ở góc trên bên phải để bắt đầu.
+    </div>
+
+    <section id="practice" class="practice hidden">
+      <div class="progress">
+        <span id="progress-label">0 / 0</span>
+      </div>
+
+      <div class="audio-controls">
+        <button id="play-btn" class="btn btn-primary">▶ Nghe</button>
+        <button id="replay-btn" class="btn">↻ Nghe lại</button>
+        <audio id="audio-player" preload="none"></audio>
+      </div>
+
+      <div class="answer-area">
+        <input
+          id="answer-input"
+          type="text"
+          placeholder="Gõ câu tiếng Trung bạn nghe được..."
+          autocomplete="off"
+        />
+        <div id="answer-feedback" class="answer-feedback"></div>
+      </div>
+
+      <div class="toggles">
+        <label><input type="checkbox" id="pinyin-toggle" /> Hiện pinyin</label>
+        <label><input type="checkbox" id="text-toggle" /> Hiện chữ Hán</label>
+      </div>
+
+      <div class="reveal">
+        <div id="pinyin-line" class="reveal-line hidden"></div>
+        <div id="text-line" class="reveal-line hidden"></div>
+      </div>
+
+      <div class="nav-controls">
+        <button id="check-btn" class="btn btn-primary">Kiểm tra</button>
+        <button id="prev-btn" class="btn">← Câu trước</button>
+        <button id="next-btn" class="btn">Câu tiếp theo →</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

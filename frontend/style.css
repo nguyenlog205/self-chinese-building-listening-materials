@@ -1,0 +1,166 @@
+:root {
+  color-scheme: light dark;
+  --accent: #2563eb;
+  --ok: #16a34a;
+  --err: #dc2626;
+  --border: #d0d5dd;
+  --bg-muted: #f4f5f7;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --border: #3a3f47;
+    --bg-muted: #1c1f24;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 1.5rem 1rem 4rem;
+}
+
+header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+h1 {
+  font-size: 1.4rem;
+  margin: 0;
+}
+
+.subtitle {
+  font-size: 0.85rem;
+  font-weight: normal;
+  opacity: 0.6;
+  margin-left: 0.4rem;
+}
+
+select,
+input[type="text"] {
+  font-size: 1rem;
+  padding: 0.5rem 0.7rem;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: transparent;
+  color: inherit;
+}
+
+.empty-state {
+  opacity: 0.6;
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.progress {
+  text-align: center;
+  opacity: 0.6;
+  font-variant-numeric: tabular-nums;
+  margin-bottom: 1rem;
+}
+
+.audio-controls {
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.btn {
+  font-size: 1rem;
+  padding: 0.55rem 1.1rem;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--bg-muted);
+  color: inherit;
+  cursor: pointer;
+}
+
+.btn:hover {
+  filter: brightness(0.96);
+}
+
+.btn:active {
+  filter: brightness(0.9);
+}
+
+.btn-primary {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
+.answer-area {
+  margin-bottom: 1rem;
+}
+
+#answer-input {
+  width: 100%;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.answer-feedback {
+  margin-top: 0.6rem;
+  text-align: center;
+  font-size: 1.4rem;
+  min-height: 1.8rem;
+  letter-spacing: 0.05em;
+}
+
+.answer-feedback .ok {
+  color: var(--ok);
+}
+
+.answer-feedback .err {
+  color: var(--err);
+  text-decoration: underline wavy var(--err);
+}
+
+.toggles {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  font-size: 0.9rem;
+  opacity: 0.8;
+  margin-bottom: 0.5rem;
+}
+
+.reveal {
+  text-align: center;
+  min-height: 3.2rem;
+}
+
+.reveal-line {
+  padding: 0.3rem 0;
+}
+
+#pinyin-line {
+  opacity: 0.7;
+}
+
+#text-line {
+  font-size: 1.4rem;
+}
+
+.nav-controls {
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+  flex-wrap: wrap;
+}

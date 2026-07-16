@@ -12,6 +12,7 @@ paths:
   audio_cache_dir: data/audio_cache
   transcript_dir: data/transcripts
   outcome_dir: outcome
+  word_hsk_dir: data/word_hsk
   log_file: logs/system.log
 
 modules:
@@ -41,8 +42,20 @@ modules:
     pinyin_style: tone_marks          # tone_marks | numeric
     overwrite_existing: false
 
+  word_export:
+    enabled: true
+    voice: zh-CN-XiaoxiaoNeural       # any edge-tts voice, used for standalone word TTS clips
+    rate: "+0%"
+    pinyin_style: tone_marks          # tone_marks | numeric
+    overwrite_existing: false         # if false, reuses an existing word_audio/*.wav instead of re-synthesizing
+
 logging:
   level: INFO
+
+web:
+  host: 127.0.0.1
+  port: 5000
+  debug: false
 ```
 
 | Section | Field | Meaning |
@@ -50,7 +63,8 @@ logging:
 | `paths` | `metadata_dir` | Where `url2metadata` writes `{video_id}.json` |
 | `paths` | `audio_cache_dir` | Where downloaded/synthesized audio (`{content_id}.wav`) is stored |
 | `paths` | `transcript_dir` | Where the final learning material (`{content_id}.json`) is stored |
-| `paths` | `outcome_dir` | Where `export.py` writes the packaged dataset (`dataset.csv` + `audio/`) |
+| `paths` | `outcome_dir` | Where `export.py` / `word_export.py` write the packaged datasets (`dataset.csv` + `audio/`, `word.csv` + `word_audio/`) |
+| `paths` | `word_hsk_dir` | Where the HSK reference vocabulary (`hsk_*.csv`) is read from by `word_export.py` |
 | `paths` | `log_file` | Shared log file path |
 | `modules.url2metadata` | `download_audio` | Skip audio download if you only need metadata |
 | `modules.url2metadata` | `overwrite_existing` | Ignore the metadata/audio cache and re-fetch |
@@ -61,6 +75,11 @@ logging:
 | `modules.script2audio` | `rate` | edge-tts speaking-rate adjustment |
 | `modules.script2audio` | `pause_between_sentences_sec` | Silence inserted between synthesized sentences |
 | `modules.script2audio` | `overwrite_existing` | Ignore the transcript cache and re-synthesize |
+| `modules.word_export` | `voice` / `rate` | edge-tts voice and speaking-rate used for standalone per-word audio clips |
+| `modules.word_export` | `pinyin_style` | Pinyin style for `word.csv`'s `pinyin` column |
+| `modules.word_export` | `overwrite_existing` | Ignore existing `word_audio/*.wav` clips and re-synthesize every word |
+| `web` | `host` / `port` | Where `webapp.py` (the dictation practice app) listens |
+| `web` | `debug` | Flask debug/reload mode — leave `false` outside local development |
 
 ## `configs/url.yml`
 

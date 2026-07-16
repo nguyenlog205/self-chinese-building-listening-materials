@@ -22,6 +22,7 @@ class PathsConfig(BaseModel):
     audio_cache_dir: str
     transcript_dir: str
     outcome_dir: str
+    word_hsk_dir: str
     log_file: str
 
 
@@ -54,14 +55,29 @@ class Script2AudioConfig(BaseModel):
     overwrite_existing: bool
 
 
+class WordExportConfig(BaseModel):
+    enabled: bool
+    voice: str
+    rate: str
+    pinyin_style: str
+    overwrite_existing: bool
+
+
 class ModulesConfig(BaseModel):
     url2metadata: Url2MetadataConfig
     audio2script: Audio2ScriptConfig
     script2audio: Script2AudioConfig
+    word_export: WordExportConfig
 
 
 class LoggingConfig(BaseModel):
     level: str
+
+
+class WebConfig(BaseModel):
+    host: str
+    port: int
+    debug: bool
 
 
 class SystemConfig(BaseModel):
@@ -69,6 +85,7 @@ class SystemConfig(BaseModel):
     paths: PathsConfig
     modules: ModulesConfig
     logging: LoggingConfig
+    web: WebConfig
 
 
 class UrlListConfig(BaseModel):

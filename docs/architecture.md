@@ -23,6 +23,12 @@ source and repackages it into a flat, self-contained dataset under
 `outcome/` (see [data-format.md](data-format.md#outcome-dataset)) — one
 CSV row and one audio clip per sentence.
 
+A second, additive step, `word_export.py`, reads the same cached
+transcripts and produces a word-level vocabulary layer alongside it (see
+[data-format.md](data-format.md#word-vocabulary-dataset)) — one CSV row
+and one standalone TTS audio clip per unique (word, pinyin), enriched
+with meaning and HSK level from `data/word_hsk/`.
+
 ## Directory layout
 
 ```
@@ -39,6 +45,8 @@ services/generateContents/          Business logic, the main package
     transcript_store.py             Reads and writes the JSON transcript cache, shared by every module
     pinyin_converter.py             The only place that imports pypinyin
     sentence_split.py               Splits text into sentences on Chinese/Western punctuation
+    segmentation.py                 The only place that imports jieba (word segmentation)
+    word_hsk_lookup.py              Parses data/word_hsk/hsk_*.csv, looks up meaning/level by (word, pinyin)
     audio.py                        The only place that imports pydub (load/slice/concat/export WAV)
   modules/
     url2metadata/
@@ -68,16 +76,24 @@ services/generateContents/          Business logic, the main package
       run.py                        Thin CLI for a single script file, calls service.run()
   pipeline.py                       Batch CLI: runs url.yml through audio2script, and scripts.yml through script2audio
   export.py                         Packages every cached transcript into outcome/ (dataset CSV + per-sentence audio clips)
+  word_export.py                    Packages every cached transcript into outcome/ (word CSV + per-word TTS audio clips)
+  webapp.py                         Flask app: JSON API over outcome/dataset.csv + serves frontend/ (read-only)
+
+frontend/
+  index.html, style.css, app.js     Static dictation practice UI, served by webapp.py
 
 data/
   metadata/{video_id}.json          Output of url2metadata
   audio_cache/{content_id}.wav      Output of url2metadata (video_id) or script2audio (script filename stem)
   transcripts/{content_id}.json     Output of audio2script or script2audio, the final learning material
   scripts/                          Where pre-written script .txt files live, referenced by scripts.yml
+  word_hsk/hsk_*.csv                Reference HSK vocabulary (word, pinyin, POS, translation), one file per level
 
 outcome/
   dataset.csv                       One row per sentence, across every content_id, output of export.py
   audio/{content_id}_{index}.wav    One clip per row, cut from that sentence's source audio
+  word.csv                          One row per unique (word, pinyin), across every content_id, output of word_export.py
+  word_audio/{hash}.wav             One standalone TTS clip per row, keyed by a hash of (word, pinyin)
 
 logs/
   system.log                        Shared log file
@@ -103,12 +119,18 @@ audio vs. TTS from known text).
 
 ## Out of scope for now
 
-- There is no API or web layer in this repository. That responsibility
-  belongs to a separate repository, which is expected to read from
-  `data/` directly (or from a shared storage location in the future).
+- `webapp.py` is a thin, read-only viewer over `outcome/` (a JSON API +
+  static frontend) for practicing dictation locally — it is not a
+  general-purpose API for a separate consumer app. That broader
+  responsibility still belongs to a separate repository, which is
+  expected to read from `data/`/`outcome/` directly (or from a shared
+  storage location in the future).
 - Not yet implemented: export to other learning formats (Anki, SRT, and
-  so on — `export.py` currently only produces the CSV + audio-clip
-  dataset format), parallel processing of multiple items, and progress
+  so on — `export.py`/`word_export.py` currently only produce the CSV +
+  audio-clip dataset formats), slicing word-level audio from the
+  in-context sentence recording instead of standalone TTS (tracked as
+  `audio_source` in `word.csv`, currently always `"tts"`), parallel
+  processing of multiple items, and progress
   tracking across batch runs (each run of `pipeline.py` walks the full
   URL/script list again; only items that are not yet cached actually
   take meaningful time).

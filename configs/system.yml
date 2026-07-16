@@ -7,6 +7,7 @@ paths:
   audio_cache_dir: data/audio_cache
   transcript_dir: data/transcripts
   outcome_dir: outcome
+  word_hsk_dir: data/word_hsk
   log_file: logs/system.log
 
 modules:
@@ -36,5 +37,17 @@ modules:
     pinyin_style: tone_marks          # tone_marks | numeric
     overwrite_existing: false
 
+  word_export:
+    enabled: true
+    voice: zh-CN-XiaoxiaoNeural       # any edge-tts voice, used for standalone word TTS clips
+    rate: "+0%"
+    pinyin_style: tone_marks          # tone_marks | numeric
+    overwrite_existing: false         # if false, reuses an existing word_audio/*.wav instead of re-synthesizing
+
 logging:
   level: INFO
+
+web:
+  host: 127.0.0.1
+  port: 5000
+  debug: false

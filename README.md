@@ -100,3 +100,35 @@ This is a separate, repeatable step — it only reads what's already in
 adding more videos or scripts. See
 [docs/data-format.md](docs/data-format.md#outcome-dataset) for the CSV
 schema.
+
+### Packaging a word vocabulary layer
+
+Additionally, package the same cached transcripts into a word-level
+vocabulary CSV + per-word TTS audio clips under `outcome/`, enriched with
+meaning and HSK level from `data/word_hsk/`:
+
+```bash
+python -m generateContents.word_export
+```
+
+Also a separate, repeatable step, additive to `outcome/dataset.csv` and
+`outcome/audio/` — it never touches them. See
+[docs/data-format.md](docs/data-format.md#word-vocabulary-dataset) for
+the CSV schema.
+
+## Dictation practice web app
+
+Once `outcome/dataset.csv` exists (see above), serve it as a listening
+dictation exercise (`frontend/`, a static HTML/JS page backed by a small
+Flask API):
+
+```bash
+python -m generateContents.webapp
+```
+
+Opens on `http://127.0.0.1:5000` by default (host/port configurable
+under `web:` in `configs/system.yml`). Pick a video/script from the
+dropdown, listen to a sentence, type what you hear, and check it against
+the transcript — pinyin and the Hanzi answer are both hidden by default
+and can be revealed with their own toggles. This is a read-only viewer
+over `outcome/`; it never writes to `data/` or `outcome/`.
