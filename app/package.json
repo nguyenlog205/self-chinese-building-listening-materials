@@ -1,0 +1,12 @@
+{
+  "name": "listening-app",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Standalone Chinese listening practice desktop app",
+  "scripts": {
+    "postinstall": "npm install --prefix electron",
+    "dev": "npm run start --prefix electron",
+    "build:linux": "npm run build:linux --prefix electron",
+    "build:win": "npm run build:win --prefix electron"
+  }
+}

@@ -1,0 +1,24 @@
+[project]
+name = "listening-backend"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi>=0.110",
+    "uvicorn[standard]>=0.29",
+    "pydantic>=2",
+    "pydantic-settings>=2",
+    "yt-dlp",
+    "faster-whisper",
+    "pypinyin",
+    "pydub",
+    "websockets",
+    "audioop-lts; python_version >= '3.13'",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["listening_backend*"]
+
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"

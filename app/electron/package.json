@@ -1,0 +1,40 @@
+{
+  "name": "listening-electron",
+  "version": "0.1.0",
+  "private": true,
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build:linux": "electron-builder --linux",
+    "build:win": "electron-builder --win"
+  },
+  "devDependencies": {
+    "electron": "^31.0.0",
+    "electron-builder": "^24.13.3"
+  },
+  "build": {
+    "appId": "com.listening.app",
+    "productName": "Listening Practice",
+    "directories": {
+      "output": "../dist"
+    },
+    "files": [
+      "**/*",
+      "../frontend/**/*"
+    ],
+    "extraResources": [
+      {
+        "from": "../backend",
+        "to": "backend",
+        "filter": ["**/*", "!.venv", "!storage/audio_cache/*", "!storage/*.db"]
+      }
+    ],
+    "win": {
+      "target": "nsis"
+    },
+    "linux": {
+      "target": "AppImage",
+      "category": "Education"
+    }
+  }
+}

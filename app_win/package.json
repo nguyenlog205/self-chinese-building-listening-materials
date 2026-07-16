@@ -1,0 +1,13 @@
+{
+  "name": "listening-app-win",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Windows one-click installer build of the Chinese listening practice app",
+  "scripts": {
+    "postinstall": "npm install --prefix electron",
+    "build:exe": "powershell -NoProfile -ExecutionPolicy Bypass -File backend/scripts/build_exe.ps1",
+    "fetch:ffmpeg": "powershell -NoProfile -ExecutionPolicy Bypass -File resources/scripts/download_ffmpeg.ps1",
+    "dist": "npm run build:exe && npm run fetch:ffmpeg && npm run build:win --prefix electron",
+    "dev": "npm run start --prefix electron"
+  }
+}

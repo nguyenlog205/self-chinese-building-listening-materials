@@ -1,0 +1,9 @@
+backend/.venv/
+backend/build/
+backend/dist/
+backend/storage/
+electron/node_modules/
+resources/ffmpeg/
+dist/
+*.pyc
+__pycache__/

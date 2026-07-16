@@ -1,0 +1,45 @@
+{
+  "name": "listening-electron-win",
+  "version": "0.1.0",
+  "private": true,
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build:win": "electron-builder --win"
+  },
+  "devDependencies": {
+    "electron": "^31.0.0",
+    "electron-builder": "^24.13.3"
+  },
+  "build": {
+    "appId": "com.listening.app.win",
+    "productName": "Listening Practice",
+    "directories": {
+      "output": "../dist"
+    },
+    "files": [
+      "**/*",
+      "../frontend/**/*"
+    ],
+    "extraResources": [
+      {
+        "from": "../backend/dist/listening-backend",
+        "to": "backend/listening-backend",
+        "filter": ["**/*"]
+      },
+      {
+        "from": "../resources/ffmpeg",
+        "to": "ffmpeg",
+        "filter": ["**/*"]
+      }
+    ],
+    "win": {
+      "target": "nsis"
+    },
+    "nsis": {
+      "oneClick": true,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": false
+    }
+  }
+}

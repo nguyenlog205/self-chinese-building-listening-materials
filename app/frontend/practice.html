@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <title>Luyện nghe</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <h1 id="lesson-title">听力练习 <span class="subtitle">Luyện tập</span></h1>
+  </header>
+
+  <main class="practice-wrap">
+    <a href="index.html" class="back-link">← Quay lại thư viện</a>
+
+    <div class="video-panel">
+      <div id="yt-player"></div>
+    </div>
+
+    <div class="controls-row">
+      <label><input type="checkbox" id="subtitle-toggle" checked /> Phụ đề</label>
+      <label><input type="checkbox" id="pinyin-toggle" /> Pinyin</label>
+      <label><input type="checkbox" id="dictation-toggle" /> Chép chính tả</label>
+
+      <div class="volume-row">
+        <span>🔊</span>
+        <input type="range" id="volume-slider" min="0" max="100" value="80" />
+      </div>
+
+      <label>
+        Tốc độ
+        <select id="speed-select">
+          <option value="0.75">0.75x</option>
+          <option value="1" selected>1x</option>
+          <option value="1.25">1.25x</option>
+        </select>
+      </label>
+    </div>
+
+    <div class="reveal-panel">
+      <div id="pinyin-line" class="pinyin-line hidden"></div>
+      <div id="text-line" class="text-line hidden"></div>
+    </div>
+
+    <div class="dictation-panel hidden" id="dictation-panel">
+      <input
+        type="text"
+        id="answer-input"
+        placeholder="Gõ câu tiếng Trung bạn nghe được..."
+        autocomplete="off"
+      />
+      <button class="btn btn-primary" id="check-btn">Kiểm tra</button>
+      <div class="answer-feedback" id="answer-feedback"></div>
+    </div>
+
+    <div class="controls-row nav-row">
+      <button class="btn" id="prev-btn">← Câu trước</button>
+      <button class="btn btn-primary" id="replay-btn">↻ Nghe lại câu này</button>
+      <span class="progress-label" id="progress-label">0 / 0</span>
+      <button class="btn" id="next-btn">Câu tiếp theo →</button>
+    </div>
+  </main>
+
+  <script src="https://www.youtube.com/iframe_api"></script>
+  <script src="js/api.js"></script>
+  <script src="js/practice.js"></script>
+</body>
+</html>

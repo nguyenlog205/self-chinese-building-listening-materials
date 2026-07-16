@@ -1,0 +1,8 @@
+backend/.venv/
+backend/storage/audio_cache/*
+backend/storage/*.db
+!backend/storage/audio_cache/.gitkeep
+electron/node_modules/
+dist/
+*.pyc
+__pycache__/

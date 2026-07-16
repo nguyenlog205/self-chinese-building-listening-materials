@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <title>听力练习 · Luyện nghe tiếng Trung</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>听力练习 <span class="subtitle">Thư viện bài học</span></h1>
+  </header>
+
+  <main>
+    <div class="error-banner" id="error-banner"></div>
+
+    <form class="add-form" id="add-form">
+      <input
+        type="text"
+        id="url-input"
+        placeholder="Dán link YouTube vào đây..."
+        autocomplete="off"
+        required
+      />
+      <button type="submit" class="btn btn-primary" id="add-btn">+ Thêm bài</button>
+    </form>
+
+    <div id="lesson-list" class="lesson-list"></div>
+    <div id="empty-state" class="empty-state hidden">
+      Chưa có bài học nào. Dán một link YouTube tiếng Trung ở trên để bắt đầu.
+    </div>
+  </main>
+
+  <script src="js/api.js"></script>
+  <script src="js/library.js"></script>
+</body>
+</html>
